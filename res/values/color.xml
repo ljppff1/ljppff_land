@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="title_bar">#49A7DA</color>
+<color name="black">#000000</color>
+<color name="grey">#d0d0d0</color>
+<color name="grey1">#f0f0f0</color>
+<color name="near">#1d506f</color>
+
+<color name="search_text">#a3000000</color>
+<color name="light_grey">#2c2c2c</color>
+<color name="text_color">#2786FC</color>
+<color name="orange">#FFA500</color><!--橙色 -->
+    <color name="first1">#00000000</color><!--黑色 -->
+    <color name="first2">#00000000</color><!--黑色 -->
+
+<color name="background_eight_icon">#3381A8</color>
+<color name="text_background_eight_icon">#135A88</color>
+</resources>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="postbuild_rentsale">
+    <item >可租可售</item>
+      <item >售</item>
+        <item >租</item>
+</string-array>
+
+<string-array name="postbuild_propertype">
+    <item >屋苑</item>
+      <item >唐樓</item>
+        <item >居屋/夾屋/公屋</item>
+        <item >寫字樓</item>
+        <item >獨立屋</item>
+        <item >單幢式物業</item>
+        <item >服務式住宅</item>
+        <item >複式</item>
+        <item >住宅</item>
+        <item >工商</item>
+        <item >鋪位/車位</item>
+        <item >村屋</item>
+        <item >海外</item>
+</string-array>
+
+  <string-array name="postbuild_livingroom">
+        <item >1廳</item>
+        <item >2廳</item>
+        <item >3廳</item>
+        <item >4廳</item>
+        <item >5廳</item>
+        <item >5+</item>
+  </string-array>
+  
+    <string-array name="postbuild_diningroom">
+        <item >1廳</item>
+        <item >2廳</item>
+        <item >3廳</item>
+        <item >4廳</item>
+        <item >5廳</item>
+        <item >5+</item>
+  </string-array>
+  
+     <string-array name="postbuild_bedroom">
+        <item >1間</item>
+          <item >2間</item>
+            <item >3間</item>
+              <item >4間</item>
+                <item >5間</item>
+                    <item >5+</item>
+  </string-array>
+  
+     <string-array name="postbuild_floor">
+        <item >低層(地下﹣10樓)</item>
+          <item >中層(11樓﹣20樓)</item>
+            <item >高層(21樓﹣30樓)</item>
+              <item >超高(31樓﹣50樓)</item>
+                <item >特高(51樓以上)</item>
+  </string-array>
+       <string-array name="postbuild_floor1">
+        <item >低層</item>
+          <item >中層</item>
+            <item >高層</item>
+              <item >超高</item>
+                <item >特高</item>
+  </string-array>
+     
+     <string-array name="postbuild_flat">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >5+</item>
+  </string-array>
+  
+     <string-array name="postbuild_kitchen">
+        <item >1廚</item>
+        <item >2廚</item>
+        <item >3廚</item>
+        <item >4廚</item>
+        <item >5廚</item>
+        <item >5+</item>
+  </string-array>
+  
+     <string-array name="postbuild_toilet">
+        <item >1廁</item>
+          <item >2廁</item>
+            <item >3廁</item>
+              <item >4廁</item>
+                <item >5廁</item>
+                    <item >5+</item>
+  </string-array>
+  
+     <string-array name="postbuild_sitto">
+        <item >東</item>
+          <item >東北</item>
+            <item >東南</item>
+              <item >南</item>
+                <item >西南</item>
+                      <item >西</item>
+                        <item >西北</item>
+                            <item >北</item>
+  </string-array>
+  
+     
+     <string-array name="postbuild_schoolnet">
+        <item >中西區 11</item>
+        <item >南區 18</item>
+        <item >東區 14</item>
+        <item >東區 16</item>
+        <item >灣仔區 12</item>
+        <item >九龍城區 34</item>
+        <item >九龍城區 35</item>
+        <item >九龍城區 41</item>
+        <item >深水埗區 38</item>
+        <item >深水埗區 40</item>
+        <item >黃大仙區 43</item>
+        <item >黃大仙區 45</item>
+        <item >油尖旺區 31</item>
+        <item >油尖旺區 32</item>
+        <item >觀塘區 48</item>
+        <item >觀塘區 46</item>
+        <item >西貢區 95</item>
+        <item >葵青區 64</item>
+        <item >葵青區 65</item>
+        <item >葵青區 66</item>
+        <item >荃灣區 62</item>
+        <item >屯門區 70</item>
+        <item >屯門區 71</item>
+        <item >北區 80</item>
+        <item >北區 81</item>
+        <item >北區 83</item>
+        <item >元朗區 72</item>
+        <item >元朗區 73</item>
+        <item >元朗區 74</item>
+        <item >沙田區 88</item>
+        <item >沙田區 89</item>
+        <item >沙田區 91</item>
+        <item >大埔區 84</item>
+        <item >離島區 96</item>
+        <item >離島區 97</item>
+        <item >離島區 98</item>
+        <item >離島區 99</item>
+  </string-array>
+<string-array name="postbuild_district">
+    <item >香港</item>
+    <item >九龍</item>
+    <item >新界</item>
+    <item >離島</item>
+</string-array>
+
+
+<!--樓盤提示的字符串（開始）  -->
+
+<string-array name="addtip_housesource">
+    <item >任何</item>
+    <item >業主自讓</item>
+</string-array>
+
+<string-array name="addtip_area">
+    
+    <item >香港島</item>
+    <item >九龍半島</item>
+    <item >新界</item>
+    <item >離島</item>
+    
+</string-array>
+
+<string-array name="addtip_housetype1">
+    
+    <item >任何</item>
+    <item >屋苑</item>
+    <item >單幢式大廈</item>
+    <item >村屋</item>
+    <item >唐樓</item>
+    <item >居屋</item>
+    <item >夾屋</item>
+    <item >公屋</item>
+    <item >洋房</item>
+    <item >獨立屋</item>
+    <item >其他</item>
+    
+</string-array>
+
+<string-array name="addtip_housetype2">
+    
+    <item >任何</item>
+    <item >住宅</item>
+    <item >商廈</item>
+    <item >店舖</item>
+    <item >寫字樓</item>
+    <item >生意</item>
+    <item >車位</item>
+    <item >居屋</item>
+    <item >公屋</item>
+    <item >套房</item>
+    <item >村屋</item>
+     <item >分租</item>
+    <item >短租</item>
+    <item >農地</item>
+    <item >獨立屋</item>
+    <item >土地</item>
+    <item >國外</item>
+    
+</string-array>
+
+<string-array name="addtip_size">
+    
+    <item >任何</item>
+    <item >400</item>
+    <item >500</item>
+    <item >600</item>
+    <item >700</item>
+    <item >800</item>
+    <item >900</item>
+    <item >1000+</item>
+    
+</string-array>
+
+<string-array name="addtip_price1">
+    
+    <item >任何</item>
+    <item >0元</item>
+    <item >5,000元</item>
+    
+</string-array>
+
+<string-array name="addtip_price2">
+    
+    <item >任何</item>
+    <item >4999元</item>
+    <item >9,999元</item>
+    <item >19,999元</item>
+    <item >29,999元</item>
+    <item >49,999元</item>
+    <item >69,999元</item>
+    <item >89,999元</item>
+    <item >109,999元</item>
+    <item >129,999元</item>
+    <item >159,999元</item>
+    <item >199,999元</item>
+    <item >200,000元以上</item>
+    
+</string-array>
+
+<string-array name="addtip_roomnum">
+    
+    <item >任何</item>
+    <item >1</item>
+    <item >2</item>
+    <item >3</item>
+    <item >4</item>
+    <item >5</item>
+    <item >6</item>
+    <item >7</item>
+    <item >8</item>
+    <item >9</item>
+    <item >10</item>
+    
+</string-array>
+
+<string-array name="addtip_housefloor">
+    
+    <item >任何</item>
+    <item >地下</item>
+    <item >低層</item>
+    <item >中層</item>
+    <item >高層</item>
+    <item >極高層</item>
+    
+</string-array>
+
+<string-array name="addtip_uselang">
+    
+    <item >繁體</item>
+    <item >簡體</item>
+    <item >ENGLISH</item>
+    
+</string-array>
+
+<string-array name="addtip_hongkong">
+    
+    <item >中西區</item>
+    <item >灣仔區</item>
+    <item >東區</item>
+    <item >南區</item>
+    
+</string-array>
+
+<string-array name="addtip_jiulong">
+    
+    <item >九龍城區</item>
+    <item >觀塘區</item>
+    <item >深水涉區</item>
+    <item >黃大仙區</item>
+    <item >油尖旺區</item>
+    
+</string-array>
+
+<string-array name="addtip_xinjie">
+    
+    <item >西區</item>
+    <item >北區</item>
+    <item >東區</item>
+    
+</string-array>
+
+
+
+<!--樓盤提示的字符串（結束）  -->
+</resources>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".HotDetail3Activity" >
+
+
+    <com.compass.hk.widgets.MyGridView
+        android:id="@+id/gridView_plane"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:numColumns="2" 
+        >
+    </com.compass.hk.widgets.MyGridView>
+
+    <ProgressBar
+        android:id="@+id/progressBar_plane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>

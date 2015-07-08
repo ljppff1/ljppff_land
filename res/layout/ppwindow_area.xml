@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" >
+
+<RelativeLayout
+    android:id="@+id/rela_aa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/view_aa"
+    android:background="#5E000000" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <RadioButton
+            android:id="@+id/radio_nolimit_price"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:checked="true"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="不限"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_price1"
+          android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="香港" />
+
+        <RadioButton
+            android:id="@+id/radio_price2"
+        android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="九龍"/>
+
+        <RadioButton
+            android:id="@+id/radio_price3"
+          android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="新界" />
+
+        <RadioButton
+            android:id="@+id/radio_price4"
+           android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="離島" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroup1" />
+
+</RelativeLayout>
+
+<View
+    android:id="@+id/view_aa"
+    android:layout_width="wrap_content"
+    android:layout_height="121dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    />
+
+</RelativeLayout>

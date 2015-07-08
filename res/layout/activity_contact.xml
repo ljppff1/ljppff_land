@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ContactActivity" >
+<RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/frame_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="      如對我們有任何查詢/建議或合作計劃，請聯絡我們："
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:paddingLeft="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="聯絡地址：	P.O.Box No.44453 Hong Kong" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="電郵地址：	admin@hk-compass.com" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:paddingLeft="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="傳真號碼：	(852) 3753-1817" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_greyline">
+            </RelativeLayout>
+
+           <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/fangpan_rela_padding" >
+
+                <TextView
+                    android:id="@+id/textView21a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名:    "
+                    android:layout_centerVertical="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+             <LinearLayout android:layout_width="0px"
+                 android:layout_height="0px"
+                 android:focusable="true"
+                 android:focusableInTouchMode="true"></LinearLayout>
+                <EditText
+                    android:id="@+id/et_contact_name"
+                    style="@style/edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/textView21a"  
+                    android:ems="10" >
+
+                    </EditText>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/fangpan_rela_padding" >
+
+                <TextView
+                    android:id="@+id/textView22a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="電話:    "
+                    android:layout_centerVertical="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+             <LinearLayout android:layout_width="0px"
+                 android:layout_height="0px"
+                 android:focusable="true"
+                 android:focusableInTouchMode="true"></LinearLayout>
+                <EditText
+                    android:id="@+id/et_contact_telephone"
+                    style="@style/edittext"
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/textView22a"  
+                    android:ems="10" >
+
+                    </EditText>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/fangpan_rela_padding" >
+
+                <TextView
+                    android:id="@+id/textView23a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="電郵:    "
+                    android:layout_centerVertical="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+             <LinearLayout android:layout_width="0px"
+                 android:layout_height="0px"
+                 android:focusable="true"
+                 android:focusableInTouchMode="true"></LinearLayout>
+                <EditText
+                    android:id="@+id/et_contact_email"
+                    style="@style/edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/textView23a"  
+                    android:ems="10" >
+
+                    </EditText>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/fangpan_rela_padding" >
+
+                <TextView
+                    android:id="@+id/textView24a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="內容:    "
+                    android:layout_centerVertical="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+             <LinearLayout android:layout_width="0px"
+                 android:layout_height="0px"
+                 android:focusable="true"
+                 android:focusableInTouchMode="true"></LinearLayout>
+                <EditText
+                    android:id="@+id/et_contact_content"
+                    style="@style/edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/textView24a"  
+                    android:ems="10" >
+
+                    </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btn_33"
+                    android:onClick="btn_sent"
+                    style="@style/btn_summited"
+                    android:text="送出" />
+                
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+</RelativeLayout>

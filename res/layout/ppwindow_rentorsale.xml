@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" >
+
+<RelativeLayout
+    android:id="@+id/rela_aa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/view_aa"
+    android:background="#5E000000" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <RadioButton
+            android:id="@+id/radio_nolimit_choose"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:checked="true"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="不限"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_chooserent"
+          android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="租" />
+
+        <RadioButton
+            android:id="@+id/radio_choosesale"
+        android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="售" />
+                <RadioButton
+            android:id="@+id/radio_choosesaleorrent"
+        android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="可租可售" />
+        
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroup1" />
+
+</RelativeLayout>
+
+<View
+    android:id="@+id/view_aa"
+    android:layout_width="wrap_content"
+    android:layout_height="121dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2" />
+            <enum name="onTouch" value="1" />
+            <enum name="off" value="0" />
+        </attr>
+        <attr name="fixAspectRatio" format="boolean" />
+        <attr name="aspectRatioX" format="integer" />
+        <attr name="aspectRatioY" format="integer" />
+        <attr name="imageResource" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh">
+
+        <!-- A drawable to use as the background of the Refreshable View -->
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+
+        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderBackground" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+
+        <!-- Mode of Pull-to-Refresh that should be used -->
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0" />
+            <flag name="pullFromStart" value="0x1" />
+            <flag name="pullFromEnd" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="manualOnly" value="0x4" />
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+        </attr>
+
+        <!-- Whether the Indicator overlay(s) should be used -->
+        <attr name="ptrShowIndicator" format="reference|boolean" />
+
+        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+        <attr name="ptrDrawable" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableStart" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableEnd" format="reference" />
+
+        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+        <attr name="ptrOverScroll" format="reference|boolean" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextAppearance" format="reference" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+        <attr name="ptrSubHeaderTextAppearance" format="reference" />
+
+        <!-- Style of Animation should be used displayed when pulling. -->
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0" />
+            <flag name="flip" value="0x1" />
+        </attr>
+
+        <!-- Whether the user can scroll while the View is Refreshing -->
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+        -->
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+        -->
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+
+        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrDrawableTop" format="reference" />
+        <attr name="ptrDrawableBottom" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CirclePageIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+
+    <declare-styleable name="SideBar">
+        <attr name="itemHeight" format="dimension"></attr>
+        <attr name="itemTextSize" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="ClearableEditText">
+        <attr name="max_length" format="integer"></attr>
+        <attr name="hint" format="string"></attr>
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <!-- 夜间模式 -->
+    <attr name="mybackground" format="reference|color" />
+    <attr name="mylist_item_seletor" format="reference" />
+    <attr name="mySettingGroupbackground" format="reference|color" />
+    <attr name="mysettingitemdiver" format="reference|color" />
+    <attr name="tittledrawbleback" format="reference|color" />
+    <attr name="SettingItemArrowdrawble" format="reference|color" />
+    <attr name="bgCommentHeader" format="reference|color" />
+    <attr name="dynamicHeaderDivider" format="reference|color" />
+    <attr name="dividerLine" format="reference|color" />
+    <attr name="mytittlebar_txtcolor" format="reference|color" />
+    <attr name="mysettingitem" format="reference|color" />
+    <attr name="mySettingGroup" format="reference|color" />
+    <attr name="bgCommentList" format="reference|color" />
+    <attr name="CircleHeaderTitle" format="reference|color" />
+    <attr name="CircleHeaderAttention" format="reference|color" />
+    <attr name="CircleHeaderAttentionNum" format="reference|color" />
+    <attr name="btnSignSelector" format="reference" />
+    <attr name="iconSignSelector" format="reference" />
+    <attr name="txtSighColor" format="reference|color" />
+    <attr name="bgItemDynamic" format="reference" />
+    <attr name="circleDynamicNickname" format="reference|color" />
+    <attr name="circleDynamicCreatetime" format="reference|color" />
+    <attr name="circleDynamicTitle" format="reference|color" />
+    <attr name="circleDynamicContent" format="reference|color" />
+    <attr name="circleDynamicSupportusers" format="reference|color" />
+    <attr name="circleDynamicSupportlable" format="reference|color" />
+    <attr name="bgItemSelector" format="reference" />
+    <attr name="circleDynamicSupportDiviver" format="reference|color" />
+    <attr name="iconComment" format="reference" />
+    <attr name="iconComments" format="reference" />
+    <attr name="iconHandFrs" format="reference" />
+    <attr name="SettingItemtextColor" format="reference|color" />
+    <attr name="SettingItemtextwhiteColor" format="reference|color" />
+    <attr name="ItemtexthintColor" format="reference|color" />
+    <attr name="iconHandFrsClick" format="reference" />
+    <attr name="loadingBGColor" format="reference|color" />
+    <attr name="searchbg" format="reference|color" />
+    <attr name="commentlistcontent" format="reference|color" />
+    <attr name="btncollectseletor" format="reference|color" />
+    <attr name="btncommentseletor" format="reference|color" />
+    <attr name="listopbg" format="reference|color" />
+    <attr name="footbarinput" format="reference|color" />
+    <attr name="bluebard" format="reference|color" />
+    <attr name="listfootercolor" format="reference|color" />
+    <attr name="popuplistitemselector" format="reference|color" />
+    <attr name="popuptextcolor" format="reference|color" />
+    <attr name="popuplistdivier" format="reference|color" />
+    <attr name="apppanelbg" format="reference|color" />
+    <attr name="bgbottominseletor" format="reference|color" />
+    <attr name="btnpbaddexpression" format="reference|color" />
+    <attr name="btnpbaddcamera" format="reference|color" />
+    <attr name="btnpbaddphot" format="reference|color" />
+    <!-- titlebar中"删除全部记录"、"保存"按钮的字体颜色 -->
+    <attr name="titleBarBtnFontColor" format="reference|color"/>
+    <!-- share dialog -->
+    <attr name="share_dialog_bgcolor" format="reference|color" />
+    <attr name="share_dialog_fontcolor" format="reference|color" />
+    <attr name="share_copy_url_fontcolor" format="reference|color" />
+    <attr name="share_copy_url_btn_Selector" format="reference" />
+    <attr name="share_cancle_btn_fontcolor" format="reference|color" />
+    <attr name="share_cancle_btn_Selector" format="reference" />
+    <attr name="share_qunzu_icon" format="reference" />
+    <attr name="share_wx_friends_icon" format="reference" />
+    <attr name="share_weixin_icon" format="reference" />
+    <attr name="share_qzon_icon" format="reference" />
+    <attr name="share_tx_weibo_icon" format="reference" />
+    <attr name="share_sina_weibo_icon" format="reference" />
+    <attr name="share_renren_icon" format="reference" />
+    <!-- 发帖 -->
+    <attr name="title_bar_bg" format="reference|color" />
+    <attr name="title_fontcolor" format="reference|color" />
+    <attr name="title_send_bg" format="reference" />
+    <attr name="title_send_fontcolor" format="reference|color" />
+    <attr name="content_bg" format="reference|color" />
+    <attr name="dynamic_post_hint_color" format="reference|color" />
+    <attr name="dynamic_post_fontcolor" format="reference|color" />
+    <attr name="dynamic_post_divider" format="reference|color" />
+    <attr name="dynamic_post_footer_divider" format="reference|color" />
+    <attr name="dynamic_post_footer_bg" format="reference" />
+    <attr name="btn_posts_expression" format="reference" />
+    <attr name="btn_posts_camer" format="reference" />
+    <attr name="btn_posts_location" format="reference" />
+    <attr name="posts_expression_bg" format="reference" />
+    <attr name="posts_expression_face" format="reference" />
+    <attr name="pic_num_promtcolor" format="reference|color" />
+    <attr name="chooseCityBg" format="reference|color" />
+    <attr name="btnpostsadd" format="reference|color" />
+    <attr name="btnpostsvoice" format="reference|color" />
+    <attr name="postsbg" format="reference|color" />
+    <attr name="btn_post_input" format="reference|color" />
+    <attr name="title_bar_text_right_tb" format="reference|color" />
+    <attr name="title_bar_text_right_tb_selector" format="reference|color" />
+    <attr name="title_bar_text_right_disable_tb" format="reference|color" />
+    <!-- homePage -->
+    <attr name="image_header_bg" format="reference" />
+    <attr name="dynamic_comment_num_color" format="reference|color" />
+    <attr name="dynamic_title_fontcolor" format="reference|color" />
+    <attr name="dynamic_create_time_color" format="reference|color" />
+    <attr name="homepage_small_text" format="reference|color" />
+    <attr name="btn_homepage_add_friend" format="reference" />
+    <attr name="btn_homepage_send_msg" format="reference" />
+    <attr name="icon_homepage_add_friend" format="reference" />
+    <attr name="txt_homepage_add_friend" format="reference|color" />
+    <attr name="txt_homepage_send_msg" format="reference|color" />
+    <attr name="icon_comment_big" format="reference" />
+    <!-- 点赞列表 -->
+    <attr name="support_list_bg" format="reference|color" />
+    <attr name="support_list_title_bg" format="reference|color" />
+    <attr name="support_list_title_fontcolor" format="reference|color" />
+    <attr name="support_list_title_forward_icon" format="reference" />
+    <attr name="support_list_item_selector" format="reference" />
+    <attr name="TitleDiver" format="reference|color" />
+    <!-- 设置精华 -->
+    <attr name="essenceIcon" format="reference" />
+    <attr name="bgcollect" format="reference|color" />
+    <attr name="bgpbdrawleft" format="reference|color" />
+    <!-- 加好友 -->
+    <attr name="bg_input_search" format="reference|color" />
+    <attr name="icon_del" format="reference|color" />
+    <!-- 模仿facebook的发帖界面 -->
+    <attr name="titleBarBg" format="reference|color" />
+    <attr name="titleFontColor" format="reference|color" />
+    <attr name="titleBarRightBtn" format="reference" />
+    <attr name="titleBarBottomLine" format="reference|color" />
+    <attr name="titleBarVerticalDivider" format="reference" />
+    <attr name="dynamicPostHintColor" format="reference|color" />
+	<!-- 消息列表 -->
+	<attr name="friendsMsgDivider" format="reference|color"/>
+</resources>

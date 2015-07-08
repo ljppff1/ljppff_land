@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webdesign688.compass"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.compass.hk.util.UILApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.compass.hk.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.compass.hk.Tab1Activity"
+            android:label="@string/title_activity_tab"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.HotActivity"
+            android:label="@string/title_activity_hot"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.yishou.YiShouActivity"
+            android:label="@string/title_activity_yi_shou"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.SaleActivity"
+            android:label="@string/title_activity_sale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.rent.RentActivity"
+            android:label="@string/title_activity_rent"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.FangPanActivity"
+            android:label="@string/title_activity_fang_pan"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.search.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.compass.OwnerActivity"
+            android:label="@string/title_activity_owner"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.compass.MyInfoEditActivity"
+            android:label="@string/title_activity_owner"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.nearby.NearByActivity"
+            android:label="@string/title_activity_near_by"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.calculator.CalculatorActivity"
+            android:label="@string/title_activity_calculator"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.badfile.XiongZhaiActivity"
+            android:label="@string/title_activity_xiong_zhai"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.MoreActivity"
+            android:label="@string/title_activity_more"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.hot.HotDetailActivity"
+            android:label="@string/title_activity_hot_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.login_register.Login_Regiester"
+            android:label="@string/title_activity_login__regiester"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.login_register.AgeActivity"
+            android:label="@string/title_activity_age"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.login_register.SlaryActivity"
+            android:label="@string/title_activity_slary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.yishou.Activity_YiShou1"
+            android:label="@string/title_activity_activity__yi_shou1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.yishou.Activity_YiShou2"
+            android:label="@string/title_activity_activity__yi_shou1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.yishou.Activity_YiShou3"
+            android:label="@string/title_activity_activity__yi_shou1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.yishou.Activity_YiShou4"
+            android:label="@string/title_activity_activity__yi_shou1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.XinWenActivity"
+            android:label="@string/title_activity_xin_wen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.News1Activity"
+            android:label="@string/title_activity_news1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.News2Activity"
+            android:label="@string/title_activity_news1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.News3Activity"
+            android:label="@string/title_activity_news1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.News4Activity"
+            android:label="@string/title_activity_news1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.News5Activity"
+            android:label="@string/title_activity_news1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.NewContentActivity"
+            android:label="@string/title_activity_new_content"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.xinwen.NewContent3Activity"
+            android:label="@string/title_activity_new_content"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.hot.HotDetail1Activity"
+            android:label="@string/title_activity_hot_detail1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.hot.HotDetail2Activity"
+            android:label="@string/title_activity_hot_detail2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.hot.HotDetail3Activity"
+            android:label="@string/title_activity_hot_detail3n"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.hot.GallleryViewActivity"
+            android:label="@string/title_activity_galllery_view"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.rent.RentDetailActivity"
+            android:label="@string/title_activity_rent_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.hot.HotDetail4Activity"
+            android:label="@string/title_activity_hot_detail4" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.ListviewActivity"
+            android:label="@string/title_activity_listview" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.search.SearchResultActivity"
+            android:label="@string/title_activity_search_result" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.login_register.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.login_register.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.hot.Gallery_Pic_Activity"
+            android:label="@string/title_activity_gallery__pic_" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.RecommendActivity"
+            android:label="@string/title_activity_recommend" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.TermsActivity"
+            android:label="@string/title_activity_terms" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.PoliceActivity"
+            android:label="@string/title_activity_police" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.VersionActivity"
+            android:label="@string/title_activity_version" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.ADActivity"
+            android:label="@string/title_activity_ad" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.more.CompassNetActivity"
+            android:label="@string/title_activity_compass_net" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.calculator.TableActivity"
+            android:label="@string/title_activity_table" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.badfile.DeadLineActivity"
+            android:label="@string/title_activity_dead_line" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.compass.FloorTipActivity"
+            android:label="@string/title_activity_floor_tip" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.compass.MyTipActivity"
+            android:label="@string/title_activity_my_tip" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.compass.AddTipActivity"
+            android:label="@string/title_activity_add_tip" >
+        </activity>
+        <activity android:name="com.compass.hk.compass.Listview_Tip_Activity" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.compass.MyFavorActivity"
+            android:label="@string/title_activity_my_favor" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.nearby.Nearby1Activity"
+            android:label="@string/title_activity_nearby1" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.nearby.Nearby2Activity"
+            android:label="@string/title_activity_nearby1" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.nearby.Nearby3Activity"
+            android:label="@string/title_activity_nearby1" >
+        </activity>
+        <activity
+            android:name="com.compass.hk.rent.MoreChooseActivity"
+            android:label="@string/title_activity_more_choose" >
+        </activity>
+        <activity 
+            android:name="com.compass.hk.badfile.XiongZhaiListActivity"
+            ></activity>
+        <activity 
+            android:name="com.compass.hk.badfile.XiongZhaiListDetailActivity"
+            ></activity>
+        <activity 
+            android:name="com.compass.hk.compass.MyFloorActivity"
+            ></activity>
+        
+    </application>
+
+</manifest>

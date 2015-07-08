@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <color name="transparent">#00000000</color>
+<color name="white">#ffffff</color>
+ <color name="main_tab_text_selected">#3385ff</color>
+    <color name="main_tab_text_normal">#494b4c</color>
+    <color name="main_tab_underline">#d7d9db</color>
+    <color name="main_tab_indicator">#3385ff</color>
+    <color name="main_tab_bg">#f8fafd</color>
+     <item name="tv_mes_tab" type="id"/>
+    <item name="tv_mes_tab2" type="id"/>
+    <string name="app_name">置業指南針</string>
+    <string name="title_activity_main">置業指南針</string>
+    <string name="title_activity_splash">置業指南針</string>
+<dimen name="title_padding">5dp</dimen>
+<dimen name="circle_width">65dp</dimen>
+<dimen name="circle_height">65dp</dimen>
+<dimen name="circle_padding">3dp</dimen>
+<dimen name="circle_padding1">6dp</dimen>
+<dimen name="fangpan_rela_padding">10dp</dimen>
+<dimen name="calculator_rela_padding">5dp</dimen>
+
+<dimen name="paddingleft">30dp</dimen>
+
+<dimen name="marginright_20">20dp</dimen>
+
+<dimen name="hot_rela_padding">5dp</dimen>
+<dimen name="hot_marginleft">100dp</dimen>
+<dimen name="hot_rela_marginleft">230dp</dimen>
+
+
+<dimen name="register_rela_padding">3dp</dimen>
+<dimen name="register_marginleft">10dp</dimen>
+
+<dimen name="paddingleft_postbuild">30dp</dimen>
+</resources>

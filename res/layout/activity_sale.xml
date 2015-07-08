@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SaleActivity" >
+<FrameLayout
+        android:id="@+id/frame_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+       
+    </FrameLayout>
+<RelativeLayout
+        android:id="@+id/relativeLayout_renttop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame_title" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp" >
+
+                <Button
+                    android:id="@+id/button_select1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="區域 "
+                    android:onClick="btn_select1"
+                    android:paddingRight="12dp"
+                    android:textColor="@color/text_background_eight_icon"
+                    android:background="@drawable/icon_spinner_background" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp" >
+                 <Button
+                    android:id="@+id/button_select2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="價格 "
+                     android:onClick="btn_select2"
+                    android:paddingRight="12dp"
+                    android:textColor="@color/text_background_eight_icon"
+                    android:background="@drawable/icon_spinner_background" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp" >
+
+                <Button
+                    android:id="@+id/button_select3"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="面積 "
+                     android:onClick="btn_select3"
+                    android:paddingRight="12dp"
+                    android:textColor="@color/text_background_eight_icon"
+                    android:background="@drawable/icon_spinner_background" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="3dp" >
+
+                <Button
+                    android:id="@+id/button_select4"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="排序 "
+                     android:onClick="btn_select4"
+                    android:paddingRight="12dp"
+                    android:textColor="@color/text_background_eight_icon"
+                    android:background="@drawable/icon_spinner_background" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+<RelativeLayout
+        android:paddingTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout_renttop"
+        android:background="@color/white"
+        >
+
+        <ListView
+            android:id="@+id/listView_sale"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <ProgressBar
+            android:id="@+id/progressBar_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+
+        <RelativeLayout
+            android:id="@+id/rela_select"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#90d0d0d0"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                >
+
+                <ListView
+                    android:id="@+id/listView_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" >
+
+                </ListView>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_noresut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="無相關搜索結果"
+            android:visibility="invisible"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+</RelativeLayout>

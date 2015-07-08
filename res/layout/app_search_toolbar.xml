@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#00d0d0d0"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         android:background="#50000000"
+         android:padding="5dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rela1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/spinner1"
+            android:background="@drawable/shape_white"
+            android:ems="10" >
+
+            <EditText
+                android:id="@+id/edittext_searchbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:hint="搜索"
+                android:layout_toLeftOf="@+id/imageButton_popuwindow" >
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/imageButton_popuwindow"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_popowindow_search" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/spinner1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <Button
+                android:id="@+id/button_main"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:text="業主盤" />
+
+            <LinearLayout
+                android:id="@+id/linea_select"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+<Button
+                android:id="@+id/button_main1"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:text="業主盤" />
+<Button
+                android:id="@+id/button_main2"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:text="代理盤" />
+<Button
+                android:id="@+id/button_main3"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:text="全部樓盤" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

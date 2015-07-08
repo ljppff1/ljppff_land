@@ -1,0 +1,913 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/frame_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </FrameLayout>
+
+    </RelativeLayout>
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativeLayout1"
+    >
+ <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服務條款:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="@dimen/more_rela_padding_3">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 謝謝你使用置業指南針(香港)hk-compass.com 的服務。凡進入及使用置業指南針(香港)hk-compass.com網站 （「本網站」），即代表你在法律上接納本網站訂定的服務條款。" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_greyline" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.一般條款" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="凡進入及使用本網站，即代表你接納本網站訂定的服務條款。本網站不得用作任何非法用途。置業指南針(香港)hk-compass.com得不時修訂服務條款的內容，因此，請你在進入或使用本網站時，經常複閱服務條款的內容。最新修訂的服務條款一經登出，任何使用本網站或本網站服務的人士，即視為已接納經修訂的服務條款內容。任何時候倘你不接納服務條款的內容，即不得使用本網站。置業指南針(香港)hk-compass.com明文拒絕由你對服務條款提出任何增訂條文或任何與本服務條款內容有衝突的條文，任何此等條文均不具任何效力。 置業指南針(香港)hk-compass.com或會要求參與獎賞計劃或網站間或提供的推廣計劃的使用者提供額外的個人資料，以便推行有關計劃，或向得獎者發出通知。 你購買任何在置業指南針(香港)hk-compass.com網站上展示的產品及服務時向其他機構提供的資料，受到該機構的私隱權政策所保障。在置業指南針(香港)hk-compass.com網站上出現的公司若為方便提供貨品或服務而要求使用者提供個人資料者，置業指南針(香港)hk-compass.com均要求該等公司清楚展明其私隱權政策，並須說明有關資料的用途。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 你明白及同意置業指南針(香港)hk-compass.com可隨時中止本網站的運作或更改網站內容而毋須作出任何通知。你也明白及同意置業指南針(香港)hk-compass.com可隨時以任何理由中止或限制你使用本網站而毋須作出任何通知。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.版權及限制使用" />
+        </RelativeLayout>
+           <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 本網站提供的一切服務，包括但不限於文字、內容、照片、錄像、聲音及圖片（「本服務」），均屬置業指南針(香港)hk-compass.com或其專營商的財產，而且受到版權法及其他智識產權法例所保障。本網站及一切有關服務，只供你作個人及非商業用途。你同意不得複製、翻製、修改、展示、展出、印製或儲存本網站提供的任何服務內容，並不得藉本網站內容製作任可衍生產品。你也同意，除非得到置業指南針(香港)hk-compass.com明文准許，否則不得向任何人士，包括但不限於在同一公司或機構內的人士發布、傳送、廣播或通傳任何由本網站提供的服務內容，惟在以下情況，則屬例外：" />
+        </RelativeLayout>
+           <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 你可以非商業用途並在不收取費用的情況下，間或及非經常性地將本網站提供服務的小部分內容翻製、分發、展示或傳送予少數人士，但有關服務須以該服務在本網站所展示的同一形式出現，而且須附有所有版權及專利標示、資料來源，並附有「獲置業指南針(香港)hk-compass.com授權使用。置業指南針(香港)hk-compass.com是置業指南針(香港)hk-compass.com 旗下網站」的字樣。然而，除非得到置業指南針(香港)hk-compass.com明文准許，否則不得將本網站的服務內容在任何網上論壇、新聞組、郵遞傳單、電子報告版或其他網站上發布。" />
+        </RelativeLayout>
+           <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 本網站列有個別人士及機構或感興趣的事實、觀點、意見及建議，惟置業指南針(香港)hk-compass.com並不對此等觀點、意見及建議的準程度、完整性或適時性提供任何保證，亦不一定認同此等觀點、意見及建議。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.免責聲明" />
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 由於本網站服務的資料來源眾多，加上電子傳送形式本身的限制，因此本網站及本服務或會出現延誤、遺漏或失準。本網站及網站內容以「既有情況」提供，本網站並不提供任何保證。置業指南針(香港)hk-compass.com及其聯營公司、代理公司及專營商無法也不會就本網站或本網站所提供內容的準確性、完整性、時效性、適時性提供任何保證，也不就有關內容是否涉及侵權、擁有權、商業潛力、或是否適用於某一特定用途提供任何保證。置業指南針(香港)hk-compass.com現此聲明，不對此等情況提供任何明示或默示的保證。" />
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 倘你或任何其他人士在取得、收編、詮釋、報導或交付本網站及任何網站內容時，完全或部份由於疏忽或其他無法控制的事故，因直接使用本網站而導致死亡或個人損傷，置業指南針(香港)hk-compass.com及其聯營公司、代理公司及專營商均不會就有關損失或損傷承擔任何責任。在任何情況下，你或任何其他人士因信賴本網站或本網站資料而作出的任何決定或採取的任何行動，置業指南針(香港)hk-compass.com及其聯營公司、代理公司及專營商均概不負責。除了直接損害賠償外，置業指南針(香港)hk-compass.com及其聯營公司、代理公司及專營商也不對你或任何其他人士的任何損害賠償（包括但不限於衍生性、特別的、附帶、間接或類似的損害賠償承擔任何責任），即使本網站已被通知根據香港特別行政區法行可能會發生此等損害。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.與其他網站的連結(Links)" />
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 本網站設有超連結 (hyperlinks)，連結至由置業指南針(香港)hk-compass.com以外其他人士營辦的網站。提供該等超連結，只為方便使用者，及供使用者參考。你同意置業指南針(香港)hk-compass.com毋須為該等網站的內容或運作承擔任何責任。透過超連結由本網站連結到另一個網站，不代表置業指南針(香港)hk-compass.com認同該網站的內容或該網站的經營者或經營方式。經由本網站連結的其他網站的內容，在多大程度獲你決定使用，全屬你的個人責任。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 倘你有意經由本網站或經由置業指南針(香港)hk-compass.com以外其他人士營辦的「聯營網站」（「聯營網站」）進行買賣，交易人士或聯營網站的經營者或其他與你交易的人士可能要求你提供若干資料，包括信用咭資料、扣數咭資料，或其他繳款機制的資料。你同意倘因與任何聯營網站或交易人士或聯營網站的營運者或其與之交易的人士進行交易而導致任何損失或損害，均毋須置業指南針(香港)hk-compass.com承擔任何責任。你同意你為進行交易而提供的一切資料均準確、完整及具時效。你同意繳付自你的信用咭、扣數咭或其他繳款機制扣除的款項，款額為扣除款項當時的實際數額。你亦須繳付與你所進行交易有關的稅項。每個聯營網站均載有該網站的私隱權政策，就該網站要求進行交易人士披露個人身份證明資料的政策作出說明。" />
+        </RelativeLayout>
+        
+         </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.額外法律條款" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 本服務條款、你的權利和責任，以及任何跟據本服務條款而採取的行動，均受到香港特別行政區（「香港」）法例規管，一如本服務條款是一份完全在香港簽訂及完全在香港履行的合約一樣。即使本服務條款內的任何條文在有關法例下屬無效或無法執行，服務條款的其他條文也繼續完全生效及有效，而有關無效或無法執行的條文則會由最接近原條文原意而屬有效及能夠執行的條文取代。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 任何未有在本服務條款明文訂明的權利，均屬保留權利。本服務條款是本網站及本服務的全部及最終協議，並取代任何你先前或同時與置業指南針(香港)hk-compass.com就本網站及本服務所達成的溝通。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.論壇" />
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 本網站若干部分讓你能夠進入線上論壇，並在論壇上發布信息及閱讀由其他使用者發布的信息（論壇）。論壇上部分論題是由置業指南針(香港)hk-compass.com擬定，而其他論題則由使用者自行擬定。然而，不論有關論題是由置業指南針(香港)hk-compass.com最先擬定還是由使用者自行擬定，置業指南針(香港)hk-compass.com對任何在論壇上發布的內容，均不表示支持，並特此聲明不會對有關內容承擔任何責任。論壇是特為置業指南針(香港)hk-compass.com使用者提供的免費服務。在論壇上發布信息，即表示你同意受下述條款約束。倘你不想受該等條款約束，請不要使用論壇。" />
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 你同意對你發布的信息負上全部責任，並同意自行承擔進入及使用以「既有情況」提供的論壇所須承受的風險。置業指南針(香港)hk-compass.com得不時監察論壇，判定所發布的信息是否符合服務條款的規定、為論壇的討論提供指引，或出於其他原因對論壇進行監察。然而，監察論壇並非置業指南針(香港)hk-compass.com的責任。置業指南針(香港)hk-compass.com不能也不會保證你或其他使用者在論壇提出的信息或其他內容，均必定予以公布或繼續公布。此外，置業指南針(香港)hk-compass.com保留基於任何理由編輯或刪減任何信息的權利，並在有需要時為符合有關法例、規例、法律程序或因應政府要求，披露任何有關資料； 置業指南針(香港)hk-compass.com亦有全權編輯、拒絕發布或移除任何資訊的全部或部分。" />
+        </RelativeLayout>
+          <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 使用論壇時，必須恪守以下守則：" />
+        </RelativeLayout>
+          <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView0311"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView0311"
+                android:text=" 你同意只發布與論壇擬題有關的信息。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView0312"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView0312"
+                android:text=" 你同意不得毀謗、辱罵、騷擾、跟縱、威嚇或作出任何其他違反他人法定權利的行為" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView0313"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView0313"
+                android:text=" 你同意不得假冒任何人士或身份，包括置業指南針(香港)hk-compass.com職員或工作人員、論壇主持，或冒充或誤導他人認為你與某人或某身份有任何關係" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView0314"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView0314"
+                android:text=" 你同意不會發布任何含有不適當、粗鄙、有誹謗成份、侵害他人權利、淫穢或不雅內容的信息，包括任何侵犯任何專利、商標、業務秘密、版權或任何其他人士的專利權的內容。你同意在引用或節錄由其他人士擁有的材料時，會引述資料來源" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView0315"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView0315"
+                android:text=" 你同意不會上傳或導致他人上傳任何帶有電腦病毒的檔案或已然損壞的檔案，或其他類似的軟件或程式而可能對其他人士的電腦運作構成不良影響者。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView032"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView032"
+                android:text=" 你同意不會在論壇上為任何貨品或服務進行宣傳或推廣。這包括「垃圾信件」、「濫發信件」、「連鎖信件」及「層壓式計劃」等。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView033"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView033"
+                android:text=" 你同意不會透過論壇進行比賽或發布連鎖信件。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView034"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView034"
+                android:text=" 你同意在使用論壇時，不會違反任何本地、國家或國際法的有關法例。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.登記及開設使用者帳戶" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 本服務的若干部份需要使用者登記及開設使用者帳戶，才可供使用者使用。使用者登記時須選定用戶名稱和密碼，同時要向置業指南針(香港)hk-compass.com提供若干登記資料。你不得 (i) 使用已被其他人登記使用的登記名稱；(ii) 未經他人授權而使用他人有權使用的登記名稱；或 (iii) 使用置業指南針(香港)hk-compass.com認為令人反感或不適當的登記名稱或密碼，而有關登記名稱或密碼是否令人反感或不適當，概由置業指南針(香港)hk-compass.com決定。你須對保持密碼的保密負上全部責任。假若你發現或懷疑你的帳戶在未經授權的情況下被他人使用，或發現或懷疑帳戶的保安出現問題，包括密碼或信用咭資料出現遺失、被竊或在未經授權的情況下遭人披露，你須立即電郵通知置業指南針(香港)hk-compass.com。你須對你在置業指南針(香港)hk-compass.com開設的帳戶的使用及活動負上全部責任，包括但不限於第三者在你授權下以你的登記名稱和密碼使用你的帳戶的情況。任何欺騙、濫用，或其他非法活動，均構成中止你的帳戶的理由，並由置業指南針(香港)hk-compass.com全權決定。置業指南針(香港)hk-compass.com更可將你轉解到適當的執法機關。你可隨時電郵到結束帳戶。帳戶結束時，你會接獲一封自動發出的電郵，告知已接獲你的要求，而你的帳戶將於兩個工作天內結束。該帳戶截至帳戶結束時所導致的一切開支，一概由你負責。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text=" 就本服務的使用，你同意：(a) 在服務登記表格內提供有關你個人的真實、準確、具時效及完備的資料（此等資料為「登記資料」）及 (b) 盡快提供最新的登記資料，以便登記資料保持真實、準確、具時效及完備。倘你提供任何失實、欠準、不具時效或有欠完備的資料，或置業指南針(香港)hk-compass.com有理由相信你所提供的資料失實、欠準、不具時效或有欠完備，置業指南針(香港)hk-compass.com有權暫停或結束你的帳戶，並在現時及日後拒絕讓你使用本服務的任何或所有服務。" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.私隱權政策" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="我們致力保障你的線上私隱，並採取多項措施，以保護你所提供的資料。為協助我們保障你的個人私隱，請將你使用置業指南針(香港)hk-compass.com時設定的登記名稱和密碼保密。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="置業指南針(香港)hk-compass.com收集若干個人資料，目的是提供個人化的服務、內容及廣告宣傳。部分個人資料是在你登記使用某些置業指南針(香港)hk-compass.com的服務或產品時收集得來。我們也可能在其他情況要求你提供個人資料，例如當你參加比賽或其他推廣活動時。對你有更深認識，令我們能夠提供更為切合你個人需要的服務。我們或會把收集得來的資料與贊助商或其他有意為你提供服務的機構一起使用。你可以隨時以電郵通知我們不要把你的個人資料提供給其他機構使用。此外，你也有權隨時複查我們所收集的個人資料，並要求更正任何有欠準確的資料。" />
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="請細閱我們的私隱權政策細則，以了解我們收集何種資料，以及我們如何使用有資料。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="登記資料的使用" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="基本登記要求你提供登記名稱和密碼、你的法定姓名、地址、聯絡電話、電郵地址。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="置業指南針(香港)hk-compass.com或會要求參與獎賞計劃或網站間或提供的推廣計劃的使用者提供額外的個人資料，以便推行有關計劃，或向得獎者發出通知。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="你購買任何在置業指南針(香港)hk-compass.com網站上展示的產品及服務時向其他機構提供的資料，受到該機構的私隱權政策所保障。在置業指南針(香港)hk-compass.com網站上出現的公司若為方便提供貨品或服務而要求使用者提供個人資料者，置業指南針(香港)hk-compass.com均要求該等公司清楚展明其私隱權政策，並須說明有關資料的用途。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="置業指南針(香港)hk-compass.com 的個人資料私隱保障" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="你所提供的資料儲存在安全的伺服器上。你可透過你指定的電郵地址接收我們發出的通知，知會你置業指南針(香港)hk-compass.com新推出的功能或優惠。你在選定個人設定時，可選擇不接收此等通知。請記得為每個用作登記用途的電郵地址選定個人設定。然而，置業指南針(香港)hk-compass.com保留權利可在法例規定或容許時披露辨認個人身份的資料。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.收集個人資料聲明" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="任何人仕對可識別個人身份之資料，如一個人之姓名、聯絡號碼、地址、性別、年齡、職業、婚姻狀況、相片、身份証號碼、信用資料等(“個人資料”)之私隱權利均獲得置業指南針(“本公司”)之確認及尊重。本公司承諾遵守個人資料(私隱)條例並致力保障網上個人資料之私隱。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="本公司可能要求瀏覽本網站之人仕(“客戶”)在使用本網站時，或通過本網站詢問、認購、申請或使用本公司所提供及管理之任何資料、服務、產品、計劃或會員登記時，提供個人資料。我們並會使用網上任何其他各種形式或技術運作收集客戶個人資料" />
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="所有本公司已收集及將收集之個人資料，均可作以下用途：" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView035"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView035"
+                android:text=" 以便利本公司向客戶提供包括但不限於地產代理、網上購物、網上商貿及其他相關服務／產品；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView036"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView036"
+                android:text=" 不時送上或電郵本公司提供／供應的多元化服務／產品直銷及宣傳資料予客戶。如客戶不希望收到這類郵件，客戶只需以書面通知本公司之個人資料主任；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView037"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView037"
+                android:text=" 核實前來本公司領取獎項或禮品之得獎者或客戶身份；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView038"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView038"
+                android:text=" 收集本公司網頁之登記客戶整體人數數據；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView039"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ◇  " />
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView039"
+                android:text=" 為遵守香港特別行政區政府或其他司法管轄區的法例及監管要求或法定機關之命令。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="本公司可把所收集的客戶個人資料提供予第三者，包括但不限於本公司的控股公司、子公司或聯營公司、或承包商及代理商、廣告商、及其他對本公司擁有保密責任之商業伙伴。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="儘管本公司將盡一齊所能確保本公司收集所得的客戶個人資料被妥善地保存在儲存系統，並祇有獲授權的僱員方可查閱有關資料，但鑒於互聯網之公開及全球性質，本公司可能無法保護及保密客戶個人資料不受第三者的蓄意干擾。凡經由本公司網頁瀏覽他人運作的網站，客戶的個人資料均不屬本公司的私隱政策保障範圍內。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="本公司保留對此項聲明於任何時間作出修改之權利。如要求查閱及更正客戶個人資料，或對本公司的私隱政策及執行有任何查詢，可致函── P.O.Box No.44453 Hong Kong置業指南針 個人資料 收。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.Cookie 政策" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="我們藉cookie技術提高會員使用網站的速度。Cookie是由置業指南針(香港)hk-compass.com網站伺服器寄給你電腦的小檔案。置業指南針(香港)hk-compass.com經常使用的cookie是為了協助我們判別 (1) 你是否置業指南針(香港)hk-compass.com的登記會員；及 (2) 已登記的會員有否採用「自動登入」功能，令登記會員毋須每次登入均要確認身份。另一種cookie由處理我們的廣告製作及追縱系統的公司發出，作用是協助辨認你所選按的廣告，以便連接你到選定的網址。我們亦可能使用cookie技術查看本網站的整體瀏覽人次，以使我們判斷何種功能最受使用者歡迎，或何種功能較不受使用者歡迎。與你可能自其他地方聽來的消息不一樣，但事實是，cookie不能夠隨意自你的硬盤取用資料，也不會破壞你的檔案，或向你發出電腦病毒。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.保留權利" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+             
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/more_rela_marginleft"
+                android:text="你與置業指南針(香港)hk-compass.com之間任何目前及將來的業務秘密、專利、版權、商標、服務標記、技術，及根據本地或外地任何政府機關有關法例所享有的任何形式的專有權利，包括本服務的應用及登記的權利（「知識產權的權利」），任何時候均屬置業指南針(香港)hk-compass.com唯一專有的財產。本服務的一切目前及日後的權利及擁有權（包括藉目前或日後的技術使用本服務或本服務的任何部分）均保留予置業指南針(香港)hk-compass.com專有使用。除非你已得到本服務條款特別准許，否則不得複製或以任何形式使用本服務或服務的任何部分。除非你已得到置業指南針(香港)hk-compass.com以書面事先批准，否則不得使用置業指南針(香港)hk-compass.com的知識產權權利或本服務；或參與或促成本服務的任何人士的姓名，或由其變化或衍生的任何服務。" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
