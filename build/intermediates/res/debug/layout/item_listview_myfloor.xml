@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white"
+    android:padding="15dp"
+    >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#80d0d0d0"
+    >
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="類型/物業種類   :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_myfavor_listview_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView18"
+                android:layout_alignBottom="@+id/TextView18"
+                android:layout_marginLeft="23dp"
+                android:layout_toRightOf="@+id/TextView18"
+                android:text="_ _"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="區域/地區          :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_myfavor_listview_rentsale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView16"
+                android:layout_alignBottom="@+id/TextView16"
+                android:layout_marginLeft="23dp"
+                android:layout_toRightOf="@+id/TextView16"
+                android:text="_ _"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/TextView161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大廈/地址          :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_myfavor_listview_area1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView161"
+                android:layout_alignBottom="@+id/TextView161"
+                android:layout_marginLeft="23dp"
+                android:layout_toRightOf="@+id/TextView161"
+                android:text="_ _"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/TextView162"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="面積/創建年份   :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_myfavor_listview_area2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/TextView162"
+                android:layout_alignBottom="@id/TextView162"
+                android:layout_marginLeft="23dp"
+                android:layout_toRightOf="@id/TextView162"
+                android:text="_ _"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="售價/出租/交吉  :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_myfavor_listview_housetype1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView14"
+                android:layout_alignBottom="@+id/TextView14"
+                android:layout_marginLeft="23dp"
+                android:layout_toRightOf="@+id/TextView14"
+                android:text="_ _"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="審核                   :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_myfavor_listview_houseprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView12"
+                android:layout_alignBottom="@+id/TextView12"
+                android:layout_marginLeft="23dp"
+                android:layout_toRightOf="@+id/TextView12"
+                android:text="_ _"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <View
+                android:layout_width="0dp"
+                
+                android:layout_height="10dp"
+                android:layout_weight="2" />
+
+            <Button
+                android:id="@+id/tv_myfavor_listview_deittip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/title_bar"
+                android:focusable="false"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:text="編輯"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/tv_myfavor_listview_deletetip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@color/title_bar"
+                android:focusable="false"
+                android:padding="5dp"
+                android:text="刪除"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+ 
+
+    </LinearLayout>
+</RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_myfloor.xml -->

@@ -28,6 +28,7 @@ import com.compass.hk.popowindow.HomeSearchBarPopupWindow.onSearchBarItemClickLi
 import com.compass.hk.rent.RentActivity;
 import com.compass.hk.rent.RentDetailActivity;
 import com.compass.hk.search.SearchActivity;
+import com.compass.hk.search.SearchResult1Activity;
 import com.compass.hk.search.SearchResultActivity;
 import com.compass.hk.util.Bean;
 import com.compass.hk.util.Content;
@@ -133,14 +134,12 @@ public class MainActivity extends FragmentActivity implements onSearchBarItemCli
 				 if (num_code==1) {
 					 JSONArray array = jsonObject.getJSONArray("data");
 					  for (int i = 0; i < array.length(); i++) {
-							 JSONObject jsonObject2 = array.getJSONObject(i);
-                           
+							JSONObject jsonObject2 = array.getJSONObject(i);
 							String CoverPic=jsonObject2.getString("PhotoPath");
                             String PhotoLink =jsonObject2.getString("PhotoLink");
-                            
-						 list.add(CoverPic);	 
-						 list1.add(PhotoLink);
-					}
+					   	    list.add(CoverPic);	 
+						    list1.add(PhotoLink);
+				              	}
 						mRltitle.setVisibility(View.GONE);
 						mFLtitle .setVisibility(View.VISIBLE);
 
@@ -577,7 +576,11 @@ public  void btn_rent(View v) {
 	}
 
 	private void summit(String key, String style) {
-		 RequestParams params = new RequestParams();
+		Intent intent =new Intent(getApplicationContext(), SearchResult1Activity.class); 
+	   intent.putExtra("KEY", key);
+	   intent.putExtra("STYLE", style);
+		startActivity(intent);
+/*		 RequestParams params = new RequestParams();
          List<NameValuePair> nameValuePairs=new ArrayList<NameValuePair>(10);
          nameValuePairs.add(new BasicNameValuePair("SearchType", style));
         	 nameValuePairs.add(new BasicNameValuePair("KeyWord", key));
@@ -628,7 +631,7 @@ public  void btn_rent(View v) {
                      //	Toast.makeText(ForgetPassword.this, "Î´°lËÍ³É¹¦£¬", Toast.LENGTH_SHORT).show();  
                      }
                  });
-	}
+*/	}
 
 	@Override
 	public void onBtnClicklistener() {

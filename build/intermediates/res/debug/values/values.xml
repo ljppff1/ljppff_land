@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/string_array.xml -->
+    <eat-comment/>
+    <string-array name="addtip_area">
+    
+    <item>香港島</item>
+    <item>九龍半島</item>
+    <item>新界</item>
+    <item>離島</item>
+    
+</string-array>
+    <string-array name="addtip_hongkong">
+    
+    <item>中西區</item>
+    <item>灣仔區</item>
+    <item>東區</item>
+    <item>南區</item>
+    
+</string-array>
+    <string-array name="addtip_housefloor">
+    
+    <item>任何</item>
+    <item>地下</item>
+    <item>低層</item>
+    <item>中層</item>
+    <item>高層</item>
+    <item>極高層</item>
+    
+</string-array>
+    <string-array name="addtip_housesource">
+    <item>任何</item>
+    <item>業主自讓</item>
+</string-array>
+    <string-array name="addtip_housetype1">
+    
+    <item>任何</item>
+    <item>屋苑</item>
+    <item>單幢式大廈</item>
+    <item>村屋</item>
+    <item>唐樓</item>
+    <item>居屋</item>
+    <item>夾屋</item>
+    <item>公屋</item>
+    <item>洋房</item>
+    <item>獨立屋</item>
+    <item>其他</item>
+    
+</string-array>
+    <string-array name="addtip_housetype2">
+    
+    <item>任何</item>
+    <item>住宅</item>
+    <item>商廈</item>
+    <item>店舖</item>
+    <item>寫字樓</item>
+    <item>生意</item>
+    <item>車位</item>
+    <item>居屋</item>
+    <item>公屋</item>
+    <item>套房</item>
+    <item>村屋</item>
+     <item>分租</item>
+    <item>短租</item>
+    <item>農地</item>
+    <item>獨立屋</item>
+    <item>土地</item>
+    <item>國外</item>
+    
+</string-array>
+    <string-array name="addtip_jiulong">
+    
+    <item>九龍城區</item>
+    <item>觀塘區</item>
+    <item>深水涉區</item>
+    <item>黃大仙區</item>
+    <item>油尖旺區</item>
+    
+</string-array>
+    <string-array name="addtip_price1">
+    
+    <item>任何</item>
+    <item>0元</item>
+    <item>5,000元</item>
+    
+</string-array>
+    <string-array name="addtip_price2">
+    
+    <item>任何</item>
+    <item>4999元</item>
+    <item>9,999元</item>
+    <item>19,999元</item>
+    <item>29,999元</item>
+    <item>49,999元</item>
+    <item>69,999元</item>
+    <item>89,999元</item>
+    <item>109,999元</item>
+    <item>129,999元</item>
+    <item>159,999元</item>
+    <item>199,999元</item>
+    <item>200,000元以上</item>
+    
+</string-array>
+    <string-array name="addtip_roomnum">
+    
+    <item>任何</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    
+</string-array>
+    <string-array name="addtip_size">
+    
+    <item>任何</item>
+    <item>400</item>
+    <item>500</item>
+    <item>600</item>
+    <item>700</item>
+    <item>800</item>
+    <item>900</item>
+    <item>1000+</item>
+    
+</string-array>
+    <string-array name="addtip_uselang">
+    
+    <item>繁體</item>
+    <item>簡體</item>
+    <item>ENGLISH</item>
+    
+</string-array>
+    <string-array name="addtip_xinjie">
+    
+    <item>西區</item>
+    <item>北區</item>
+    <item>東區</item>
+    
+</string-array>
+    <string-array name="postbuild_bedroom">
+        <item>1間</item>
+          <item>2間</item>
+            <item>3間</item>
+              <item>4間</item>
+                <item>5間</item>
+                    <item>5+</item>
+  </string-array>
+    <string-array name="postbuild_diningroom">
+        <item>1廳</item>
+        <item>2廳</item>
+        <item>3廳</item>
+        <item>4廳</item>
+        <item>5廳</item>
+        <item>5+</item>
+  </string-array>
+    <string-array name="postbuild_district">
+    <item>香港</item>
+    <item>九龍</item>
+    <item>新界</item>
+    <item>離島</item>
+</string-array>
+    <string-array name="postbuild_flat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5+</item>
+  </string-array>
+    <string-array name="postbuild_floor">
+        <item>低層(地下﹣10樓)</item>
+          <item>中層(11樓﹣20樓)</item>
+            <item>高層(21樓﹣30樓)</item>
+              <item>超高(31樓﹣50樓)</item>
+                <item>特高(51樓以上)</item>
+  </string-array>
+    <string-array name="postbuild_floor1">
+        <item>低層</item>
+          <item>中層</item>
+            <item>高層</item>
+              <item>超高</item>
+                <item>特高</item>
+  </string-array>
+    <string-array name="postbuild_kitchen">
+        <item>1廚</item>
+        <item>2廚</item>
+        <item>3廚</item>
+        <item>4廚</item>
+        <item>5廚</item>
+        <item>5+</item>
+  </string-array>
+    <string-array name="postbuild_livingroom">
+        <item>1廳</item>
+        <item>2廳</item>
+        <item>3廳</item>
+        <item>4廳</item>
+        <item>5廳</item>
+        <item>5+</item>
+  </string-array>
+    <string-array name="postbuild_propertype">
+    <item>屋苑</item>
+      <item>唐樓</item>
+        <item>居屋/夾屋/公屋</item>
+        <item>寫字樓</item>
+        <item>獨立屋</item>
+        <item>單幢式物業</item>
+        <item>服務式住宅</item>
+        <item>複式</item>
+        <item>住宅</item>
+        <item>工商</item>
+        <item>鋪位/車位</item>
+        <item>村屋</item>
+        <item>海外</item>
+</string-array>
+    <string-array name="postbuild_rentsale">
+    <item>可租可售</item>
+      <item>售</item>
+        <item>租</item>
+</string-array>
+    <string-array name="postbuild_schoolnet">
+        <item>中西區 11</item>
+        <item>南區 18</item>
+        <item>東區 14</item>
+        <item>東區 16</item>
+        <item>灣仔區 12</item>
+        <item>九龍城區 34</item>
+        <item>九龍城區 35</item>
+        <item>九龍城區 41</item>
+        <item>深水埗區 38</item>
+        <item>深水埗區 40</item>
+        <item>黃大仙區 43</item>
+        <item>黃大仙區 45</item>
+        <item>油尖旺區 31</item>
+        <item>油尖旺區 32</item>
+        <item>觀塘區 48</item>
+        <item>觀塘區 46</item>
+        <item>西貢區 95</item>
+        <item>葵青區 64</item>
+        <item>葵青區 65</item>
+        <item>葵青區 66</item>
+        <item>荃灣區 62</item>
+        <item>屯門區 70</item>
+        <item>屯門區 71</item>
+        <item>北區 80</item>
+        <item>北區 81</item>
+        <item>北區 83</item>
+        <item>元朗區 72</item>
+        <item>元朗區 73</item>
+        <item>元朗區 74</item>
+        <item>沙田區 88</item>
+        <item>沙田區 89</item>
+        <item>沙田區 91</item>
+        <item>大埔區 84</item>
+        <item>離島區 96</item>
+        <item>離島區 97</item>
+        <item>離島區 98</item>
+        <item>離島區 99</item>
+  </string-array>
+    <string-array name="postbuild_sitto">
+        <item>東</item>
+          <item>東北</item>
+            <item>東南</item>
+              <item>南</item>
+                <item>西南</item>
+                      <item>西</item>
+                        <item>西北</item>
+                            <item>北</item>
+  </string-array>
+    <string-array name="postbuild_toilet">
+        <item>1廁</item>
+          <item>2廁</item>
+            <item>3廁</item>
+              <item>4廁</item>
+                <item>5廁</item>
+                    <item>5+</item>
+  </string-array>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference|color" name="CircleHeaderAttention"/>
+    <attr format="reference|color" name="CircleHeaderAttentionNum"/>
+    <attr format="reference|color" name="CircleHeaderTitle"/>
+    <attr format="reference|color" name="ItemtexthintColor"/>
+    <attr format="reference|color" name="SettingItemArrowdrawble"/>
+    <attr format="reference|color" name="SettingItemtextColor"/>
+    <attr format="reference|color" name="SettingItemtextwhiteColor"/>
+    <attr format="reference|color" name="TitleDiver"/>
+    <attr format="reference|color" name="apppanelbg"/>
+    <attr format="reference|color" name="bgCommentHeader"/>
+    <attr format="reference|color" name="bgCommentList"/>
+    <attr format="reference" name="bgItemDynamic"/>
+    <attr format="reference" name="bgItemSelector"/>
+    <attr format="reference|color" name="bg_input_search"/>
+    <attr format="reference|color" name="bgbottominseletor"/>
+    <attr format="reference|color" name="bgcollect"/>
+    <attr format="reference|color" name="bgpbdrawleft"/>
+    <attr format="reference|color" name="bluebard"/>
+    <attr format="reference" name="btnSignSelector"/>
+    <attr format="reference" name="btn_homepage_add_friend"/>
+    <attr format="reference" name="btn_homepage_send_msg"/>
+    <attr format="reference|color" name="btn_post_input"/>
+    <attr format="reference" name="btn_posts_camer"/>
+    <attr format="reference" name="btn_posts_expression"/>
+    <attr format="reference" name="btn_posts_location"/>
+    <attr format="reference|color" name="btncollectseletor"/>
+    <attr format="reference|color" name="btncommentseletor"/>
+    <attr format="reference|color" name="btnpbaddcamera"/>
+    <attr format="reference|color" name="btnpbaddexpression"/>
+    <attr format="reference|color" name="btnpbaddphot"/>
+    <attr format="reference|color" name="btnpostsadd"/>
+    <attr format="reference|color" name="btnpostsvoice"/>
+    <attr format="boolean" name="centered"/>
+    <attr format="reference|color" name="chooseCityBg"/>
+    <attr format="reference|color" name="circleDynamicContent"/>
+    <attr format="reference|color" name="circleDynamicCreatetime"/>
+    <attr format="reference|color" name="circleDynamicNickname"/>
+    <attr format="reference|color" name="circleDynamicSupportDiviver"/>
+    <attr format="reference|color" name="circleDynamicSupportlable"/>
+    <attr format="reference|color" name="circleDynamicSupportusers"/>
+    <attr format="reference|color" name="circleDynamicTitle"/>
+    <attr format="reference|color" name="commentlistcontent"/>
+    <attr format="reference|color" name="content_bg"/>
+    <attr format="reference|color" name="dividerLine"/>
+    <attr format="reference|color" name="dynamicHeaderDivider"/>
+    <attr format="reference|color" name="dynamicPostHintColor"/>
+    <attr format="reference|color" name="dynamic_comment_num_color"/>
+    <attr format="reference|color" name="dynamic_create_time_color"/>
+    <attr format="reference|color" name="dynamic_post_divider"/>
+    <attr format="reference|color" name="dynamic_post_fontcolor"/>
+    <attr format="reference" name="dynamic_post_footer_bg"/>
+    <attr format="reference|color" name="dynamic_post_footer_divider"/>
+    <attr format="reference|color" name="dynamic_post_hint_color"/>
+    <attr format="reference|color" name="dynamic_title_fontcolor"/>
+    <attr format="reference" name="essenceIcon"/>
+    <attr format="reference|color" name="footbarinput"/>
+    <attr format="reference|color" name="friendsMsgDivider"/>
+    <attr format="reference|color" name="homepage_small_text"/>
+    <attr format="reference" name="iconComment"/>
+    <attr format="reference" name="iconComments"/>
+    <attr format="reference" name="iconHandFrs"/>
+    <attr format="reference" name="iconHandFrsClick"/>
+    <attr format="reference" name="iconSignSelector"/>
+    <attr format="reference" name="icon_comment_big"/>
+    <attr format="reference|color" name="icon_del"/>
+    <attr format="reference" name="icon_homepage_add_friend"/>
+    <attr format="reference" name="image_header_bg"/>
+    <attr format="reference|color" name="listfootercolor"/>
+    <attr format="reference|color" name="listopbg"/>
+    <attr format="reference|color" name="loadingBGColor"/>
+    <attr format="reference|color" name="mySettingGroup"/>
+    <attr format="reference|color" name="mySettingGroupbackground"/>
+    <attr format="reference|color" name="mybackground"/>
+    <attr format="reference" name="mylist_item_seletor"/>
+    <attr format="reference|color" name="mysettingitem"/>
+    <attr format="reference|color" name="mysettingitemdiver"/>
+    <attr format="reference|color" name="mytittlebar_txtcolor"/>
+    <attr format="reference|color" name="pic_num_promtcolor"/>
+    <attr format="reference|color" name="popuplistdivier"/>
+    <attr format="reference|color" name="popuplistitemselector"/>
+    <attr format="reference|color" name="popuptextcolor"/>
+    <attr format="reference" name="posts_expression_bg"/>
+    <attr format="reference" name="posts_expression_face"/>
+    <attr format="reference|color" name="postsbg"/>
+    <attr format="reference|color" name="searchbg"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="reference" name="share_cancle_btn_Selector"/>
+    <attr format="reference|color" name="share_cancle_btn_fontcolor"/>
+    <attr format="reference" name="share_copy_url_btn_Selector"/>
+    <attr format="reference|color" name="share_copy_url_fontcolor"/>
+    <attr format="reference|color" name="share_dialog_bgcolor"/>
+    <attr format="reference|color" name="share_dialog_fontcolor"/>
+    <attr format="reference" name="share_qunzu_icon"/>
+    <attr format="reference" name="share_qzon_icon"/>
+    <attr format="reference" name="share_renren_icon"/>
+    <attr format="reference" name="share_sina_weibo_icon"/>
+    <attr format="reference" name="share_tx_weibo_icon"/>
+    <attr format="reference" name="share_weixin_icon"/>
+    <attr format="reference" name="share_wx_friends_icon"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="reference|color" name="support_list_bg"/>
+    <attr format="reference" name="support_list_item_selector"/>
+    <attr format="reference|color" name="support_list_title_bg"/>
+    <attr format="reference|color" name="support_list_title_fontcolor"/>
+    <attr format="reference" name="support_list_title_forward_icon"/>
+    <attr format="reference|color" name="titleBarBg"/>
+    <attr format="reference|color" name="titleBarBottomLine"/>
+    <attr format="reference|color" name="titleBarBtnFontColor"/>
+    <attr format="reference" name="titleBarRightBtn"/>
+    <attr format="reference" name="titleBarVerticalDivider"/>
+    <attr format="reference|color" name="titleFontColor"/>
+    <attr format="reference|color" name="title_bar_bg"/>
+    <attr format="reference|color" name="title_bar_text_right_disable_tb"/>
+    <attr format="reference|color" name="title_bar_text_right_tb"/>
+    <attr format="reference|color" name="title_bar_text_right_tb_selector"/>
+    <attr format="reference|color" name="title_fontcolor"/>
+    <attr format="reference" name="title_send_bg"/>
+    <attr format="reference|color" name="title_send_fontcolor"/>
+    <attr format="reference|color" name="tittledrawbleback"/>
+    <attr format="reference|color" name="txtSighColor"/>
+    <attr format="reference|color" name="txt_homepage_add_friend"/>
+    <attr format="reference|color" name="txt_homepage_send_msg"/>
+    <attr format="color" name="unselectedColor"/>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/color.xml -->
+    <eat-comment/>
+    <color name="background_eight_icon">#3381A8</color>
+    <color name="black">#000000</color>
+    <color name="first1">#00000000</color>
+    <color name="first2">#00000000</color>
+    <color name="grey">#d0d0d0</color>
+    <color name="grey1">#f0f0f0</color>
+    <color name="light_grey">#2c2c2c</color>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml -->
+    <eat-comment/>
+    <color name="main_tab_bg">#f8fafd</color>
+    <color name="main_tab_indicator">#3385ff</color>
+    <color name="main_tab_text_normal">#494b4c</color>
+    <color name="main_tab_text_selected">#3385ff</color>
+    <color name="main_tab_underline">#d7d9db</color>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/color.xml -->
+    <eat-comment/>
+    <color name="near">#1d506f</color>
+    <color name="orange">#FFA500</color>
+    <color name="search_text">#a3000000</color>
+    <color name="text_background_eight_icon">#135A88</color>
+    <color name="text_color">#2786FC</color>
+    <color name="title_bar">#49A7DA</color>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml -->
+    <eat-comment/>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ClearableEditText"><attr format="integer" name="max_length"/><attr format="string" name="hint"/></declare-styleable>
+    <declare-styleable name="CropImageView"><attr name="guidelines"><enum name="on" value="2"/><enum name="onTouch" value="1"/><enum name="off" value="0"/></attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="SideBar"><attr format="dimension" name="itemHeight"/><attr format="dimension" name="itemTextSize"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="calculator_rela_padding">5dp</dimen>
+    <dimen name="circle_height">65dp</dimen>
+    <dimen name="circle_padding">3dp</dimen>
+    <dimen name="circle_padding1">6dp</dimen>
+    <dimen name="circle_width">65dp</dimen>
+    <dimen name="fangpan_rela_padding">10dp</dimen>
+    <dimen name="hot_marginleft">100dp</dimen>
+    <dimen name="hot_rela_marginleft">230dp</dimen>
+    <dimen name="hot_rela_padding">5dp</dimen>
+    <dimen name="marginright_20">20dp</dimen>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="more_rela_marginleft">20dp</dimen>
+    <dimen name="more_rela_padding_3">5dp</dimen>
+    <dimen name="more_rela_padding_5">5dp</dimen>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="paddingleft">30dp</dimen>
+    <dimen name="paddingleft_postbuild">30dp</dimen>
+    <dimen name="register_marginleft">10dp</dimen>
+    <dimen name="register_rela_padding">3dp</dimen>
+    <dimen name="title_padding">5dp</dimen>
+    <item name="tv_mes_tab" type="id"/>
+    <item name="tv_mes_tab2" type="id"/>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml -->
+    <eat-comment/>
+    <string name="app_name">置業指南針</string>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="badfile_file">  凶宅檔案  </string>
+    <string name="badfile_new">  凶宅新聞  </string>
+    <string name="badfile_oder">  凶宅訂閱  </string>
+    <string name="badfile_sort">  凶宅排行榜  </string>
+    <string name="badfile_void">  怎樣可免買入凶宅  </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity__yi_shou1">Activity_YiShou1</string>
+    <string name="title_activity_ad">ADActivity</string>
+    <string name="title_activity_add_tip">AddTipActivity</string>
+    <string name="title_activity_age">AgeActivity</string>
+    <string name="title_activity_calculator">CalculatorActivity</string>
+    <string name="title_activity_compass_net">CompassNetActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_dead_line">DeadLineActivity</string>
+    <string name="title_activity_fang_pan">FangPanActivity</string>
+    <string name="title_activity_floor_tip">FloorTipActivity</string>
+    <string name="title_activity_gallery__pic_">Gallery_Pic_Activity</string>
+    <string name="title_activity_galllery_view">GallleryViewActivity</string>
+    <string name="title_activity_hot">HotActivity</string>
+    <string name="title_activity_hot_detail">HotDetailActivity</string>
+    <string name="title_activity_hot_detail1">HotDetail1Activity</string>
+    <string name="title_activity_hot_detail2">HotDetail2Activity</string>
+    <string name="title_activity_hot_detail3n">HotDetail3nActivity</string>
+    <string name="title_activity_hot_detail4">HotDetail4Activity</string>
+    <string name="title_activity_listview">ListviewActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login__regiester">Login_Regiester</string>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml -->
+    <eat-comment/>
+    <string name="title_activity_main">置業指南針</string>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_more_choose">MoreChooseActivity</string>
+    <string name="title_activity_my_favor">MyFavorActivity</string>
+    <string name="title_activity_my_tip">MyTipActivity</string>
+    <string name="title_activity_near_by">NearByActivity</string>
+    <string name="title_activity_nearby1">Nearby1Activity</string>
+    <string name="title_activity_new_content">NewContentActivity</string>
+    <string name="title_activity_news1">News1Activity</string>
+    <string name="title_activity_owner">OwnerActivity</string>
+    <string name="title_activity_police">PoliceActivity</string>
+    <string name="title_activity_recommend">RecommendActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_rent">RentActivity</string>
+    <string name="title_activity_rent_detail">RentDetailActivity</string>
+    <string name="title_activity_sale">SaleActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_activity_slary">SlaryActivity</string>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml -->
+    <eat-comment/>
+    <string name="title_activity_splash">置業指南針</string>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_terms">TermsActivity</string>
+    <string name="title_activity_version">VersionActivity</string>
+    <string name="title_activity_xin_wen">XinWenActivity</string>
+    <string name="title_activity_xiong_zhai">XiongZhaiActivity</string>
+    <string name="title_activity_yi_shou">YiShouActivity</string>
+    <!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Popup_Animation_Alpha" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/layout_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/layout_alpha_out</item>
+    </style>
+    <style name="btn_summited">
+    <item name="android:layout_width">220dp</item>
+    <item name="android:layout_height">40dp</item>
+    <item name="android:layout_centerHorizontal">true</item>
+     <item name="android:background">@color/title_bar</item>
+      <item name="android:gravity">center</item>
+       <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="checkbox_postbuild">
+    <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="edittext">
+    <item name="android:paddingLeft">10dp</item>
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:ems">10</item>
+    </style>
+    <style name="myradiobutton">
+        <item name="android:visibility">invisible</item>
+    <item name="android:layout_width">13dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@drawable/radiobutton</item>
+    </style>
+    <style name="myradiobutton_galley">
+        <item name="android:visibility">invisible</item>
+    <item name="android:layout_width">13dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@drawable/radiobutton_gallery</item>
+    </style>
+    <style name="textview_more">
+    </style>
+    <style name="textview_postbuild">
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_centerVertical">true</item>
+    <item name="android:layout_marginRight">20dp</item>
+    <item name="android:drawableRight">@drawable/icon_arrow</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    <item name="android:textColor">@color/search_text</item>
+    <item name="android:text">請選擇   </item>
+    
+    </style>
+</resources>

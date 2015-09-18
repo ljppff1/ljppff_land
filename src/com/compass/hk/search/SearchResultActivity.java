@@ -1,21 +1,34 @@
 package com.compass.hk.search;
 
 import java.util.ArrayList;
+import java.util.List;
 
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.webdesign688.compass.R;
+import com.compass.hk.MainActivity;
+import com.compass.hk.dialog.CustomerAlertDialog;
 import com.compass.hk.frame.Frame_Title;
 import com.compass.hk.rent.RentActivity;
 import com.compass.hk.rent.RentDetailActivity;
 import com.compass.hk.util.Bean;
+import com.compass.hk.util.Content;
+import com.lidroid.xutils.HttpUtils;
+import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.RequestParams;
+import com.lidroid.xutils.http.ResponseInfo;
+import com.lidroid.xutils.http.callback.RequestCallBack;
+import com.lidroid.xutils.http.client.HttpRequest;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -30,7 +43,9 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 
 public class SearchResultActivity extends FragmentActivity {
@@ -40,10 +55,13 @@ public class SearchResultActivity extends FragmentActivity {
 	private ListView mListView;
 	protected ImageLoader imageLoader = ImageLoader.getInstance();
 	DisplayImageOptions options;
+	private ProgressBar progressBar_sale;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_search_result);
+		progressBar_sale =(ProgressBar)this.findViewById(R.id.progressBar_sale);
+		progressBar_sale.setVisibility(View.VISIBLE);
 		FragmentManager sfm = getSupportFragmentManager();
 		FragmentTransaction ft = sfm.beginTransaction();
 		Frame_Title    frame_Title= new Frame_Title();
@@ -55,6 +73,7 @@ public class SearchResultActivity extends FragmentActivity {
 		mData = intent.getStringExtra("data");
 		jsondata();
 	}
+	
 	//UIL
 		private void initImageLoaderOptions() {
 			options = new DisplayImageOptions.Builder()
@@ -65,37 +84,55 @@ public class SearchResultActivity extends FragmentActivity {
 		}
 
 	private void jsondata() {
-		   JSONArray jsonArray;
-		try {
-			jsonArray = new JSONArray(mData);
-			for (int i = 0; i < jsonArray.length(); i++) {
-				  
-				  Data  data=new Data();
-				 JSONObject jsonObject2 = jsonArray.getJSONObject(i);
-				 data.ID= jsonObject2.getString("ID");
-				 data.Name= jsonObject2.getString("Name");
-				 data.StreetName = jsonObject2.getString("StreetName");
-				 data.AreaGross=jsonObject2.getString("AreaGross");
-				 data.AreaNet=jsonObject2.getString("AreaNet");
-				 data.CoverPic=jsonObject2.getString("CoverPic");
-				 data.SellingPrice=jsonObject2.getString("SellingPrice");
-				 data.RentPrice=jsonObject2.getString("RentPrice");
-				 mDataList.add(data);
-				 Log.e("jsondata", ""+mDataList.toString());
-			}
-			 
-		} catch (JSONException e) {
-			// TODO Auto-generated catch block
 		
-		}
-		if(mDataList.size()>0)
-		 initListView();
+			new Thread(new Runnable() {
+				
+				@Override
+				public void run() {
+					try {
+					JSONArray jsonArray = new JSONArray(mData);
+
+					for (int i = 0; i < jsonArray.length(); i++) {
+						
+						  Data  data=new Data();
+						 JSONObject jsonObject2 = jsonArray.getJSONObject(i);
+						 data.ID= jsonObject2.getString("ID");
+						 data.Name= jsonObject2.getString("Name");
+						 data.StreetName = jsonObject2.getString("StreetName");
+						 data.AreaGross=jsonObject2.getString("AreaGross");
+						 data.AreaNet=jsonObject2.getString("AreaNet");
+						 data.CoverPic=jsonObject2.getString("CoverPic");
+						 data.SellingPrice=jsonObject2.getString("SellingPrice");
+						 data.RentPrice=jsonObject2.getString("RentPrice");
+						 mDataList.add(data);
+						 Log.e("jsondata", ""+mDataList.toString());
+						handler.sendEmptyMessage(1); 
+					} 
+					
+					}catch (JSONException e) {
+						// TODO Auto-generated catch block
+					
+					}
+					}
+
+				
+			}).start();
+			 
+		
+		
 		  
 	}
+	private Handler handler =new Handler(){
+		public void handleMessage(android.os.Message msg) {
+			if(mDataList.size()>0)
+				 initListView();
+		};
+	};
 	private void initListView() {
        mListView = (ListView) findViewById(R.id.listView_sale);
        mListView.setVisibility(View.VISIBLE);
        mListView.setAdapter(new Myadapter());
+       progressBar_sale.setVisibility(View.GONE);
        mListView.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override

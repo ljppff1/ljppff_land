@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/liujun/Documents/workspace/1/compass_12_19/assets"><file name="backupactivity_main.xml" path="/Users/liujun/Documents/workspace/1/compass_12_19/assets/backupactivity_main.xml"/></source></dataSet><dataSet config="debug"><source path="/Users/liujun/Documents/workspace/1/compass_12_19/build-types/debug/assets"/></dataSet></merger>

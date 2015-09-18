@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/liujun/Documents/workspace/1/compass_12_19/res"><file name="gallery_in" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/anim/gallery_in.xml" qualifiers="" type="anim"/><file name="gallery_out" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/anim/gallery_out.xml" qualifiers="" type="anim"/><file name="layout_alpha_in" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/anim/layout_alpha_in.xml" qualifiers="" type="anim"/><file name="layout_alpha_out" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/anim/layout_alpha_out.xml" qualifiers="" type="anim"/><file name="push_left_in" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/anim/push_left_in.xml" qualifiers="" type="anim"/><file name="push_left_out" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/anim/push_left_out.xml" qualifiers="" type="anim"/><file name="b1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/b1.xml" qualifiers="" type="drawable"/><file name="b2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/b2.xml" qualifiers="" type="drawable"/><file name="b3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/b3.xml" qualifiers="" type="drawable"/><file name="b4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/b4.xml" qualifiers="" type="drawable"/><file name="background_tab" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/background_tab.xml" qualifiers="" type="drawable"/><file name="bbb1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb1.xml" qualifiers="" type="drawable"/><file name="bbb2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb2.xml" qualifiers="" type="drawable"/><file name="bbb3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb3.xml" qualifiers="" type="drawable"/><file name="bbb4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb4.xml" qualifiers="" type="drawable"/><file name="bbb5" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb5.xml" qualifiers="" type="drawable"/><file name="bbb6" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb6.xml" qualifiers="" type="drawable"/><file name="bbb7" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb7.xml" qualifiers="" type="drawable"/><file name="bbb8" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/bbb8.xml" qualifiers="" type="drawable"/><file name="button2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/button2.xml" qualifiers="" type="drawable"/><file name="cancel" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/cancel.png" qualifiers="" type="drawable"/><file name="example_tab_item_bg" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/example_tab_item_bg.xml" qualifiers="" type="drawable"/><file name="icon_grey" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/icon_grey.png" qualifiers="" type="drawable"/><file name="icon_propety" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/icon_propety.png" qualifiers="" type="drawable"/><file name="icon_rent_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/icon_rent_1.png" qualifiers="" type="drawable"/><file name="icon_white" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/icon_white.png" qualifiers="" type="drawable"/><file name="public_selector_bg" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/public_selector_bg.xml" qualifiers="" type="drawable"/><file name="radiobutton" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/radiobutton.xml" qualifiers="" type="drawable"/><file name="radiobutton_gallery" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/radiobutton_gallery.xml" qualifiers="" type="drawable"/><file name="selector_color" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_color.xml" qualifiers="" type="drawable"/><file name="selector_color_near" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_color_near.xml" qualifiers="" type="drawable"/><file name="selector_color_ppwindow" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_color_ppwindow.xml" qualifiers="" type="drawable"/><file name="selector_hot_background" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_hot_background.xml" qualifiers="" type="drawable"/><file name="selector_input" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_input.xml" qualifiers="" type="drawable"/><file name="selector_menu" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu.xml" qualifiers="" type="drawable"/><file name="selector_menu1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu1.xml" qualifiers="" type="drawable"/><file name="selector_menu2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu2.xml" qualifiers="" type="drawable"/><file name="selector_menu3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu3.xml" qualifiers="" type="drawable"/><file name="selector_menu4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu4.xml" qualifiers="" type="drawable"/><file name="selector_menu_login" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu_login.xml" qualifiers="" type="drawable"/><file name="selector_menu_regiester" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu_regiester.xml" qualifiers="" type="drawable"/><file name="selector_menu_sale1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu_sale1.xml" qualifiers="" type="drawable"/><file name="selector_menu_sale2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_menu_sale2.xml" qualifiers="" type="drawable"/><file name="selector_near_tab" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_near_tab.xml" qualifiers="" type="drawable"/><file name="selector_new_tab" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_new_tab.xml" qualifiers="" type="drawable"/><file name="selector_ppwindow_zone" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_ppwindow_zone.xml" qualifiers="" type="drawable"/><file name="selector_yishou_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/selector_yishou_tab1.xml" qualifiers="" type="drawable"/><file name="shape_backline" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_backline.xml" qualifiers="" type="drawable"/><file name="shape_check" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_check.xml" qualifiers="" type="drawable"/><file name="shape_grey_pp" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_grey_pp.xml" qualifiers="" type="drawable"/><file name="shape_greyline" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_greyline.xml" qualifiers="" type="drawable"/><file name="shape_normal" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_normal.xml" qualifiers="" type="drawable"/><file name="shape_normal_gallery" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_normal_gallery.xml" qualifiers="" type="drawable"/><file name="shape_white" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_white.xml" qualifiers="" type="drawable"/><file name="shape_white_pp" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_white_pp.xml" qualifiers="" type="drawable"/><file name="shape_xuxian" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/shape_xuxian.xml" qualifiers="" type="drawable"/><file name="ss1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/ss1.xml" qualifiers="" type="drawable"/><file name="ss2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/ss2.xml" qualifiers="" type="drawable"/><file name="applogo" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/applogo.png" qualifiers="hdpi-v4" type="drawable"/><file name="applogo2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/applogo2.png" qualifiers="hdpi-v4" type="drawable"/><file name="applogo5" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/applogo5.png" qualifiers="hdpi-v4" type="drawable"/><file name="homebanner02" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/homebanner02.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="ic_call" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/ic_call.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_email1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/ic_email1.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_empty" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/ic_empty.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_focus" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/ic_focus.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_focus_select" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/ic_focus_select.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_adv" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_adv.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_adv_leftarrow" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_adv_leftarrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_adv_rightarrow" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_adv_rightarrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_arrow" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_arrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_arrow2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_arrow2.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_bar_background" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_bar_background.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_bar_logo" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_bar_logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_bar_return" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_bar_return.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_caculator" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_caculator.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_caculator_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_caculator_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_calculator" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_calculator.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_document" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_document.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_document_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_document_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_fangpan" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_fangpan.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_fangpan_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_fangpan_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_favor_normal" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_favor_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_floormanager" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_floormanager.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_greyline" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_greyline.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_greyline_vertical" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_greyline_vertical.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_heart" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_heart.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_heart_add" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_heart_add.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_inputframe" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_inputframe.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_inputframe_press" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_inputframe_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_itembackground" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_itembackground.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_login11" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_login11.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_login22" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_login22.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_login_register" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_login_register.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_loginback" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_loginback.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_logo" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_map" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_map.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_members" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_members.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu1_press" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu1_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu2_normal" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu2_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu2_press" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu2_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu3_normal" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu3_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu3_press" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu3_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu4_normal" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu4_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu4_press" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu4_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_chizi" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_chizi.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_compass" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_compass.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_hot" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_hot.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_house" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_house.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_more" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_more.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_nearby" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_nearby.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_new" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_new.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_new_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_new_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_normal" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menu_press" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menu_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_menubackground" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_menubackground.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_mybackground" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_mybackground.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_mydoc" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_mydoc.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_nearby" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_nearby.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_nearby_rent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_nearby_rent.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_nearby_sale" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_nearby_sale.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_nearby_yishou" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_nearby_yishou.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_newlogo" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_newlogo.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_newmenu1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_newmenu1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_newmenu2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_newmenu2.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_newmenu3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_newmenu3.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_newmenu4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_newmenu4.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_newpic" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_newpic.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="icon_news_tabbackground" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_news_tabbackground.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_person" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_person.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_popowindow_search" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_popowindow_search.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_propety_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_propety_1.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="icon_propety_11" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_propety_11.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_register1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_register1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_register2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_register2.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_rent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_rent.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_rentpic" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_rentpic.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_robert_rong" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_robert_rong.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sale" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_sale.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sale11" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_sale11.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sale12" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_sale12.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sale21" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_sale21.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sale22" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_sale22.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sale_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_sale_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_seafront" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_seafront.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_search" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_search.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_search_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_search_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_sound" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_sound.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_spinner1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_spinner1.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_spinner2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_spinner2.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_spinner3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_spinner3.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_spinner4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_spinner4.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_spinner5" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_spinner5.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_spinner_background" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_spinner_background.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_splah_background" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_splah_background.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_splash_logo" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_splash_logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_tab_rent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_tab_rent.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_tab_xiongzhai" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_tab_xiongzhai.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_tip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_tip.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_title_320_44" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_title_320_44.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_title_search" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_title_search.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_wallet" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_wallet.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_xiongzaidoc" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_xiongzaidoc.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_xuxian" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/icon_xuxian.png" qualifiers="hdpi-v4" type="drawable"/><file name="main_listview_image" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/main_listview_image.png" qualifiers="hdpi-v4" type="drawable"/><file name="s1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-hdpi/s1.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_call" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-mdpi/ic_call.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_call" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-xhdpi/ic_call.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_call" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-xxhdpi/ic_call.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_activity__yi_shou1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_activity__yi_shou1.xml" qualifiers="" type="layout"/><file name="activity_ad" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_ad.xml" qualifiers="" type="layout"/><file name="activity_add_tip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_add_tip.xml" qualifiers="" type="layout"/><file name="activity_age" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_age.xml" qualifiers="" type="layout"/><file name="activity_calculator" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_calculator.xml" qualifiers="" type="layout"/><file name="activity_compass_net" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_compass_net.xml" qualifiers="" type="layout"/><file name="activity_contact" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_contact.xml" qualifiers="" type="layout"/><file name="activity_dead_line" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_dead_line.xml" qualifiers="" type="layout"/><file name="activity_fang_pan" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_fang_pan.xml" qualifiers="" type="layout"/><file name="activity_floor_tip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_floor_tip.xml" qualifiers="" type="layout"/><file name="activity_gallery__pic_" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_gallery__pic_.xml" qualifiers="" type="layout"/><file name="activity_galllery_view" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_galllery_view.xml" qualifiers="" type="layout"/><file name="activity_hot" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_hot.xml" qualifiers="" type="layout"/><file name="activity_hot_detail" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_hot_detail.xml" qualifiers="" type="layout"/><file name="activity_hot_detail1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_hot_detail1.xml" qualifiers="" type="layout"/><file name="activity_hot_detail3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_hot_detail3.xml" qualifiers="" type="layout"/><file name="activity_hot_detail4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_hot_detail4.xml" qualifiers="" type="layout"/><file name="activity_hot_detail5" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_hot_detail5.xml" qualifiers="" type="layout"/><file name="activity_listview" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_listview.xml" qualifiers="" type="layout"/><file name="activity_login" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_login.xml" qualifiers="" type="layout"/><file name="activity_login__regiester" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_login__regiester.xml" qualifiers="" type="layout"/><file name="activity_main" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="activity_more" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_more.xml" qualifiers="" type="layout"/><file name="activity_more_choose" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_more_choose.xml" qualifiers="" type="layout"/><file name="activity_my_favor" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_my_favor.xml" qualifiers="" type="layout"/><file name="activity_my_tip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_my_tip.xml" qualifiers="" type="layout"/><file name="activity_near_by" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_near_by.xml" qualifiers="" type="layout"/><file name="activity_nearby1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_nearby1.xml" qualifiers="" type="layout"/><file name="activity_new_content" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_new_content.xml" qualifiers="" type="layout"/><file name="activity_new_content1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_new_content1.xml" qualifiers="" type="layout"/><file name="activity_news1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_news1.xml" qualifiers="" type="layout"/><file name="activity_owner" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_owner.xml" qualifiers="" type="layout"/><file name="activity_police" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_police.xml" qualifiers="" type="layout"/><file name="activity_recommend" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_recommend.xml" qualifiers="" type="layout"/><file name="activity_register" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_register.xml" qualifiers="" type="layout"/><file name="activity_rent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_rent.xml" qualifiers="" type="layout"/><file name="activity_rent_detail" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_rent_detail.xml" qualifiers="" type="layout"/><file name="activity_sale" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_sale.xml" qualifiers="" type="layout"/><file name="activity_search" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_search.xml" qualifiers="" type="layout"/><file name="activity_search_result" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_search_result.xml" qualifiers="" type="layout"/><file name="activity_slary" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_slary.xml" qualifiers="" type="layout"/><file name="activity_splash" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_splash.xml" qualifiers="" type="layout"/><file name="activity_tab" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_tab.xml" qualifiers="" type="layout"/><file name="activity_table" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_table.xml" qualifiers="" type="layout"/><file name="activity_terms" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_terms.xml" qualifiers="" type="layout"/><file name="activity_version" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_version.xml" qualifiers="" type="layout"/><file name="activity_xin_wen" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_xin_wen.xml" qualifiers="" type="layout"/><file name="activity_xiong_zhai" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_xiong_zhai.xml" qualifiers="" type="layout"/><file name="activity_xiong_zhai_list" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_xiong_zhai_list.xml" qualifiers="" type="layout"/><file name="activity_yi_shou" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_yi_shou.xml" qualifiers="" type="layout"/><file name="alertdialog" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/alertdialog.xml" qualifiers="" type="layout"/><file name="app_search_toolbar" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/app_search_toolbar.xml" qualifiers="" type="layout"/><file name="dialog" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/dialog.xml" qualifiers="" type="layout"/><file name="dialog_calling" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/dialog_calling.xml" qualifiers="" type="layout"/><file name="dialog_nointernet" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/dialog_nointernet.xml" qualifiers="" type="layout"/><file name="fragment_tabs_pager" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/fragment_tabs_pager.xml" qualifiers="" type="layout"/><file name="fragment_tabs_pager_login" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/fragment_tabs_pager_login.xml" qualifiers="" type="layout"/><file name="frame_agence" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_agence.xml" qualifiers="" type="layout"/><file name="frame_danger2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_danger2.xml" qualifiers="" type="layout"/><file name="frame_danger3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_danger3.xml" qualifiers="" type="layout"/><file name="frame_danger4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_danger4.xml" qualifiers="" type="layout"/><file name="frame_danger5" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_danger5.xml" qualifiers="" type="layout"/><file name="frame_danger_sort" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_danger_sort.xml" qualifiers="" type="layout"/><file name="frame_hot1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_hot1.xml" qualifiers="" type="layout"/><file name="frame_hot2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_hot2.xml" qualifiers="" type="layout"/><file name="frame_login" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_login.xml" qualifiers="" type="layout"/><file name="frame_menu1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_menu1.xml" qualifiers="" type="layout"/><file name="frame_regiester" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_regiester.xml" qualifiers="" type="layout"/><file name="frame_title" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_title.xml" qualifiers="" type="layout"/><file name="frame_viewpage" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_viewpage.xml" qualifiers="" type="layout"/><file name="frame_viewpage_home" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_viewpage_home.xml" qualifiers="" type="layout"/><file name="frame_viewpage_hot" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_viewpage_hot.xml" qualifiers="" type="layout"/><file name="frame_viewpage_hot_pic" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_viewpage_hot_pic.xml" qualifiers="" type="layout"/><file name="frame_viewpage_rent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frame_viewpage_rent.xml" qualifiers="" type="layout"/><file name="framemenu_viewpage" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/framemenu_viewpage.xml" qualifiers="" type="layout"/><file name="frament_rent1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frament_rent1.xml" qualifiers="" type="layout"/><file name="frament_rent_map" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/frament_rent_map.xml" qualifiers="" type="layout"/><file name="include_postbuild_1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/include_postbuild_1.xml" qualifiers="" type="layout"/><file name="infoedit" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/infoedit.xml" qualifiers="" type="layout"/><file name="item__new_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item__new_tab1.xml" qualifiers="" type="layout"/><file name="item__new_tab2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item__new_tab2.xml" qualifiers="" type="layout"/><file name="item__new_tab3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item__new_tab3.xml" qualifiers="" type="layout"/><file name="item__new_tab4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item__new_tab4.xml" qualifiers="" type="layout"/><file name="item__new_tab5" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item__new_tab5.xml" qualifiers="" type="layout"/><file name="item_floortip_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_floortip_tab1.xml" qualifiers="" type="layout"/><file name="item_floortip_tab2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_floortip_tab2.xml" qualifiers="" type="layout"/><file name="item_frame_yishou" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_frame_yishou.xml" qualifiers="" type="layout"/><file name="item_gridview_plane" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_gridview_plane.xml" qualifiers="" type="layout"/><file name="item_hotdetali_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_hotdetali_tab1.xml" qualifiers="" type="layout"/><file name="item_hotdetali_tab2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_hotdetali_tab2.xml" qualifiers="" type="layout"/><file name="item_hotdetali_tab3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_hotdetali_tab3.xml" qualifiers="" type="layout"/><file name="item_hotdetali_tab4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_hotdetali_tab4.xml" qualifiers="" type="layout"/><file name="item_listview_age" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_age.xml" qualifiers="" type="layout"/><file name="item_listview_danger3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_danger3.xml" qualifiers="" type="layout"/><file name="item_listview_dangersort" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_dangersort.xml" qualifiers="" type="layout"/><file name="item_listview_deadline" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_deadline.xml" qualifiers="" type="layout"/><file name="item_listview_main" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_main.xml" qualifiers="" type="layout"/><file name="item_listview_main_item0" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_main_item0.xml" qualifiers="" type="layout"/><file name="item_listview_more" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_more.xml" qualifiers="" type="layout"/><file name="item_listview_myfavor" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_myfavor.xml" qualifiers="" type="layout"/><file name="item_listview_myfloor" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_myfloor.xml" qualifiers="" type="layout"/><file name="item_listview_myorderdanger" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_myorderdanger.xml" qualifiers="" type="layout"/><file name="item_listview_mytip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_mytip.xml" qualifiers="" type="layout"/><file name="item_listview_new1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_new1.xml" qualifiers="" type="layout"/><file name="item_listview_new2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_new2.xml" qualifiers="" type="layout"/><file name="item_listview_post" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_post.xml" qualifiers="" type="layout"/><file name="item_listview_postbuild" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_postbuild.xml" qualifiers="" type="layout"/><file name="item_listview_rent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_rent.xml" qualifiers="" type="layout"/><file name="item_listview_select" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_listview_select.xml" qualifiers="" type="layout"/><file name="item_login_tab" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_login_tab.xml" qualifiers="" type="layout"/><file name="item_nearby_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_nearby_tab1.xml" qualifiers="" type="layout"/><file name="item_nearby_tab2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_nearby_tab2.xml" qualifiers="" type="layout"/><file name="item_nearby_tab3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_nearby_tab3.xml" qualifiers="" type="layout"/><file name="item_regiester_tab" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_regiester_tab.xml" qualifiers="" type="layout"/><file name="item_rent_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_rent_tab1.xml" qualifiers="" type="layout"/><file name="item_rent_tab2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_rent_tab2.xml" qualifiers="" type="layout"/><file name="item_rent_tab3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_rent_tab3.xml" qualifiers="" type="layout"/><file name="item_rent_tab4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_rent_tab4.xml" qualifiers="" type="layout"/><file name="item_rent_tab5" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_rent_tab5.xml" qualifiers="" type="layout"/><file name="item_search_spinner" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_search_spinner.xml" qualifiers="" type="layout"/><file name="item_spinner" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_spinner.xml" qualifiers="" type="layout"/><file name="item_spinner1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_spinner1.xml" qualifiers="" type="layout"/><file name="item_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_tab1.xml" qualifiers="" type="layout"/><file name="item_tab2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_tab2.xml" qualifiers="" type="layout"/><file name="item_tab3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_tab3.xml" qualifiers="" type="layout"/><file name="item_tab4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_tab4.xml" qualifiers="" type="layout"/><file name="item_yishou_tab1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_yishou_tab1.xml" qualifiers="" type="layout"/><file name="item_yishou_tab2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_yishou_tab2.xml" qualifiers="" type="layout"/><file name="item_yishou_tab3" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_yishou_tab3.xml" qualifiers="" type="layout"/><file name="item_yishou_tab4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/item_yishou_tab4.xml" qualifiers="" type="layout"/><file name="ppwindow_area" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_area.xml" qualifiers="" type="layout"/><file name="ppwindow_more" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_more.xml" qualifiers="" type="layout"/><file name="ppwindow_more1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_more1.xml" qualifiers="" type="layout"/><file name="ppwindow_price" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_price.xml" qualifiers="" type="layout"/><file name="ppwindow_rentorsale" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_rentorsale.xml" qualifiers="" type="layout"/><file name="ppwindow_saleprice" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_saleprice.xml" qualifiers="" type="layout"/><file name="ppwindow_sort" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_sort.xml" qualifiers="" type="layout"/><file name="ppwindow_zone" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_zone.xml" qualifiers="" type="layout"/><file name="rela_include_register_agent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/rela_include_register_agent.xml" qualifiers="" type="layout"/><file name="window2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/window2.xml" qualifiers="" type="layout"/><file name="activity__yi_shou1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/activity__yi_shou1.xml" qualifiers="" type="menu"/><file name="ad" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/ad.xml" qualifiers="" type="menu"/><file name="add_tip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/add_tip.xml" qualifiers="" type="menu"/><file name="age" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/age.xml" qualifiers="" type="menu"/><file name="calculator" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/calculator.xml" qualifiers="" type="menu"/><file name="compass_net" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/compass_net.xml" qualifiers="" type="menu"/><file name="contact" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/contact.xml" qualifiers="" type="menu"/><file name="dead_line" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/dead_line.xml" qualifiers="" type="menu"/><file name="fang_pan" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/fang_pan.xml" qualifiers="" type="menu"/><file name="floor_tip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/floor_tip.xml" qualifiers="" type="menu"/><file name="gallery__pic_" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/gallery__pic_.xml" qualifiers="" type="menu"/><file name="galllery_view" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/galllery_view.xml" qualifiers="" type="menu"/><file name="hot" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/hot.xml" qualifiers="" type="menu"/><file name="hot_detail" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/hot_detail.xml" qualifiers="" type="menu"/><file name="hot_detail1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/hot_detail1.xml" qualifiers="" type="menu"/><file name="hot_detail2" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/hot_detail2.xml" qualifiers="" type="menu"/><file name="hot_detail3n" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/hot_detail3n.xml" qualifiers="" type="menu"/><file name="hot_detail4" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/hot_detail4.xml" qualifiers="" type="menu"/><file name="listview" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/listview.xml" qualifiers="" type="menu"/><file name="login" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/login.xml" qualifiers="" type="menu"/><file name="login__regiester" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/login__regiester.xml" qualifiers="" type="menu"/><file name="more" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/more.xml" qualifiers="" type="menu"/><file name="more_choose" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/more_choose.xml" qualifiers="" type="menu"/><file name="my_favor" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/my_favor.xml" qualifiers="" type="menu"/><file name="my_tip" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/my_tip.xml" qualifiers="" type="menu"/><file name="near_by" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/near_by.xml" qualifiers="" type="menu"/><file name="nearby1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/nearby1.xml" qualifiers="" type="menu"/><file name="new_content" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/new_content.xml" qualifiers="" type="menu"/><file name="news1" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/news1.xml" qualifiers="" type="menu"/><file name="owner" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/owner.xml" qualifiers="" type="menu"/><file name="police" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/police.xml" qualifiers="" type="menu"/><file name="recommend" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/recommend.xml" qualifiers="" type="menu"/><file name="register" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/register.xml" qualifiers="" type="menu"/><file name="rent" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/rent.xml" qualifiers="" type="menu"/><file name="rent_detail" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/rent_detail.xml" qualifiers="" type="menu"/><file name="sale" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/sale.xml" qualifiers="" type="menu"/><file name="search" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/search.xml" qualifiers="" type="menu"/><file name="search_result" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/search_result.xml" qualifiers="" type="menu"/><file name="slary" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/slary.xml" qualifiers="" type="menu"/><file name="tab" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/tab.xml" qualifiers="" type="menu"/><file name="table" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/table.xml" qualifiers="" type="menu"/><file name="terms" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/terms.xml" qualifiers="" type="menu"/><file name="version" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/version.xml" qualifiers="" type="menu"/><file name="xin_wen" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/xin_wen.xml" qualifiers="" type="menu"/><file name="xiong_zhai" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/xiong_zhai.xml" qualifiers="" type="menu"/><file name="yi_shou" path="/Users/liujun/Documents/workspace/1/compass_12_19/res/menu/yi_shou.xml" qualifiers="" type="menu"/><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values/attrs.xml" qualifiers=""><attr format="reference" name="support_list_item_selector"/><attr format="reference" name="btnSignSelector"/><declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the circle indicator. -->
+        <attr format="reference" name="vpiCirclePageIndicatorStyle"/>
+        <!-- Style of the icon indicator's views. -->
+        <attr format="reference" name="vpiIconPageIndicatorStyle"/>
+        <!-- Style of the line indicator. -->
+        <attr format="reference" name="vpiLinePageIndicatorStyle"/>
+        <!-- Style of the title indicator. -->
+        <attr format="reference" name="vpiTitlePageIndicatorStyle"/>
+        <!-- Style of the tab indicator's tabs. -->
+        <attr format="reference" name="vpiTabPageIndicatorStyle"/>
+        <!-- Style of the underline indicator. -->
+        <attr format="reference" name="vpiUnderlinePageIndicatorStyle"/>
+    </declare-styleable><attr format="reference|color" name="circleDynamicContent"/><attr format="reference|color" name="circleDynamicCreatetime"/><attr format="reference" name="bgItemSelector"/><attr format="reference|color" name="footbarinput"/><attr format="reference|color" name="btnpostsvoice"/><attr format="reference|color" name="title_send_fontcolor"/><declare-styleable name="CirclePageIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered"/>
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr format="color" name="fillColor"/>
+        <!-- Color of the filled circles that represents pages. -->
+        <attr format="color" name="pageColor"/>
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr format="dimension" name="radius"/>
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr format="boolean" name="snap"/>
+        <!-- Color of the open circles. -->
+        <attr format="color" name="strokeColor"/>
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable><attr format="reference|color" name="title_bar_bg"/><attr format="reference|color" name="circleDynamicSupportDiviver"/><attr format="boolean" name="centered"/><attr format="reference" name="bgItemDynamic"/><attr format="reference" name="iconHandFrs"/><attr format="reference|color" name="loadingBGColor"/><attr format="reference|color" name="dynamic_create_time_color"/><attr format="reference" name="iconComment"/><attr format="reference|color" name="circleDynamicTitle"/><attr format="reference|color" name="SettingItemtextwhiteColor"/><attr format="reference|color" name="support_list_title_fontcolor"/><declare-styleable name="PagerSlidingTabStrip">
+        <attr format="color" name="pstsIndicatorColor"/>
+        <attr format="color" name="pstsUnderlineColor"/>
+        <attr format="color" name="pstsDividerColor"/>
+        <attr format="dimension" name="pstsIndicatorHeight"/>
+        <attr format="dimension" name="pstsUnderlineHeight"/>
+        <attr format="dimension" name="pstsDividerPadding"/>
+        <attr format="dimension" name="pstsTabPaddingLeftRight"/>
+        <attr format="dimension" name="pstsScrollOffset"/>
+        <attr format="reference" name="pstsTabBackground"/>
+        <attr format="boolean" name="pstsShouldExpand"/>
+        <attr format="boolean" name="pstsTextAllCaps"/>
+    </declare-styleable><attr format="reference|color" name="mybackground"/><attr format="reference|color" name="commentlistcontent"/><attr format="reference" name="btn_posts_location"/><attr format="reference|color" name="TitleDiver"/><attr format="reference" name="iconSignSelector"/><attr format="reference|color" name="apppanelbg"/><attr format="reference|color" name="share_copy_url_fontcolor"/><attr format="reference|color" name="mySettingGroup"/><attr format="reference|color" name="bgcollect"/><attr format="reference|color" name="btncollectseletor"/><attr format="reference|color" name="titleBarBtnFontColor"/><attr format="reference|color" name="chooseCityBg"/><declare-styleable name="PullToRefresh">
+
+        <!-- A drawable to use as the background of the Refreshable View -->
+        <attr format="reference|color" name="ptrRefreshableViewBackground"/>
+
+        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+        <attr format="reference|color" name="ptrHeaderBackground"/>
+
+        <!-- Text Color of the Header and Footer Loading Views -->
+        <attr format="reference|color" name="ptrHeaderTextColor"/>
+
+        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+        <attr format="reference|color" name="ptrHeaderSubTextColor"/>
+
+        <!-- Mode of Pull-to-Refresh that should be used -->
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr>
+
+        <!-- Whether the Indicator overlay(s) should be used -->
+        <attr format="reference|boolean" name="ptrShowIndicator"/>
+
+        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+        <attr format="reference" name="ptrDrawable"/>
+
+        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+        <attr format="reference" name="ptrDrawableStart"/>
+
+        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+        <attr format="reference" name="ptrDrawableEnd"/>
+
+        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+        <attr format="reference|boolean" name="ptrOverScroll"/>
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+        <attr format="reference" name="ptrHeaderTextAppearance"/>
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+        <attr format="reference" name="ptrSubHeaderTextAppearance"/>
+
+        <!-- Style of Animation should be used displayed when pulling. -->
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+        </attr>
+
+        <!-- Whether the user can scroll while the View is Refreshing -->
+        <attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/>
+
+        <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+        <attr format="reference|boolean" name="ptrListViewExtrasEnabled"/>
+
+        <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+        <attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/>
+
+        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+        <attr format="reference|color" name="ptrAdapterViewBackground"/>
+        <attr format="reference" name="ptrDrawableTop"/>
+        <attr format="reference" name="ptrDrawableBottom"/>
+    </declare-styleable><attr format="reference|color" name="searchbg"/><attr format="reference|color" name="share_cancle_btn_fontcolor"/><attr format="reference" name="iconHandFrsClick"/><attr format="reference" name="share_qunzu_icon"/><attr format="reference" name="support_list_title_forward_icon"/><attr format="reference|color" name="bgCommentList"/><attr format="reference" name="btn_posts_camer"/><attr format="reference|color" name="title_bar_text_right_tb"/><attr format="reference" name="posts_expression_face"/><attr format="reference|color" name="circleDynamicSupportlable"/><attr format="reference|color" name="circleDynamicNickname"/><declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="off" value="0"/>
+        </attr>
+        <attr format="boolean" name="fixAspectRatio"/>
+        <attr format="integer" name="aspectRatioX"/>
+        <attr format="integer" name="aspectRatioY"/>
+        <attr format="reference" name="imageResource"/>
+    </declare-styleable><attr format="reference|color" name="dynamic_post_fontcolor"/><attr format="reference|color" name="CircleHeaderAttention"/><attr format="reference|color" name="txt_homepage_send_msg"/><attr format="reference|color" name="CircleHeaderTitle"/><attr format="reference" name="image_header_bg"/><attr format="reference|color" name="tittledrawbleback"/><attr format="reference|color" name="bgpbdrawleft"/><attr format="reference|color" name="dynamicHeaderDivider"/><attr format="reference" name="dynamic_post_footer_bg"/><attr format="reference" name="btn_homepage_add_friend"/><attr format="reference|color" name="content_bg"/><attr format="reference|color" name="popuptextcolor"/><attr format="reference|color" name="dynamic_post_divider"/><attr format="reference" name="share_qzon_icon"/><attr format="reference|color" name="btnpbaddexpression"/><attr format="reference|color" name="title_fontcolor"/><attr format="reference|color" name="title_bar_text_right_disable_tb"/><attr format="dimension" name="strokeWidth"/><attr format="reference|color" name="bgCommentHeader"/><attr format="reference|color" name="dynamic_title_fontcolor"/><attr format="reference" name="mylist_item_seletor"/><attr format="reference|color" name="txtSighColor"/><attr format="reference|color" name="listfootercolor"/><attr format="reference|color" name="postsbg"/><attr format="reference|color" name="share_dialog_bgcolor"/><attr format="color" name="unselectedColor"/><attr format="reference|color" name="titleFontColor"/><attr format="reference|color" name="share_dialog_fontcolor"/><attr format="reference|color" name="dynamicPostHintColor"/><attr format="reference" name="posts_expression_bg"/><attr format="reference|color" name="SettingItemtextColor"/><attr format="reference|color" name="popuplistdivier"/><attr format="reference|color" name="btnpostsadd"/><attr format="reference|color" name="btnpbaddcamera"/><attr format="reference" name="icon_comment_big"/><attr format="reference" name="titleBarRightBtn"/><attr format="reference|color" name="dynamic_post_hint_color"/><attr format="reference|color" name="listopbg"/><attr format="reference|color" name="dynamic_comment_num_color"/><attr format="reference|color" name="bluebard"/><attr format="reference|color" name="icon_del"/><attr format="reference" name="share_cancle_btn_Selector"/><attr format="reference|color" name="btn_post_input"/><attr format="reference|color" name="pic_num_promtcolor"/><attr format="reference|color" name="support_list_bg"/><attr format="reference" name="share_renren_icon"/><attr format="reference|color" name="dividerLine"/><attr format="reference|color" name="circleDynamicSupportusers"/><attr format="reference|color" name="title_bar_text_right_tb_selector"/><attr format="reference|color" name="mysettingitemdiver"/><attr format="reference" name="share_weixin_icon"/><attr format="reference|color" name="bg_input_search"/><attr format="reference|color" name="SettingItemArrowdrawble"/><attr format="reference|color" name="popuplistitemselector"/><attr format="reference|color" name="txt_homepage_add_friend"/><attr format="reference|color" name="ItemtexthintColor"/><attr format="reference|color" name="bgbottominseletor"/><attr format="reference" name="share_sina_weibo_icon"/><attr format="reference" name="essenceIcon"/><attr format="reference|color" name="btnpbaddphot"/><attr format="reference|color" name="friendsMsgDivider"/><attr format="reference|color" name="mySettingGroupbackground"/><attr format="reference" name="iconComments"/><attr format="reference" name="btn_homepage_send_msg"/><attr format="reference|color" name="titleBarBg"/><attr format="reference|color" name="mysettingitem"/><attr format="reference" name="share_wx_friends_icon"/><attr format="reference|color" name="homepage_small_text"/><attr format="color" name="selectedColor"/><attr format="reference|color" name="btncommentseletor"/><attr format="reference" name="share_copy_url_btn_Selector"/><attr format="reference|color" name="CircleHeaderAttentionNum"/><attr format="reference" name="title_send_bg"/><attr format="reference|color" name="titleBarBottomLine"/><attr format="reference|color" name="support_list_title_bg"/><attr format="reference|color" name="dynamic_post_footer_divider"/><attr format="reference" name="share_tx_weibo_icon"/><declare-styleable name="ClearableEditText">
+        <attr format="integer" name="max_length"/>
+        <attr format="string" name="hint"/>
+    </declare-styleable><attr format="reference|color" name="mytittlebar_txtcolor"/><declare-styleable name="SideBar">
+        <attr format="dimension" name="itemHeight"/>
+        <attr format="dimension" name="itemTextSize"/>
+    </declare-styleable><attr format="reference" name="titleBarVerticalDivider"/><attr format="reference" name="icon_homepage_add_friend"/><attr format="reference" name="btn_posts_expression"/></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values/color.xml" qualifiers=""><color name="grey1">#f0f0f0</color><color name="near">#1d506f</color><color name="background_eight_icon">#3381A8</color><color name="search_text">#a3000000</color><color name="light_grey">#2c2c2c</color><color name="black">#000000</color><color name="text_color">#2786FC</color><color name="first2">#00000000</color><color name="orange">#FFA500</color><color name="first1">#00000000</color><color name="text_background_eight_icon">#135A88</color><color name="title_bar">#49A7DA</color><color name="grey">#d0d0d0</color></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimen.xml" qualifiers=""><dimen name="fangpan_rela_padding">10dp</dimen><dimen name="register_marginleft">10dp</dimen><dimen name="hot_marginleft">100dp</dimen><dimen name="hot_rela_marginleft">230dp</dimen><color name="main_tab_bg">#f8fafd</color><color name="main_tab_text_selected">#3385ff</color><item name="tv_mes_tab" type="id"/><item name="tv_mes_tab2" type="id"/><color name="main_tab_underline">#d7d9db</color><string name="title_activity_splash">置業指南針</string><dimen name="title_padding">5dp</dimen><color name="main_tab_text_normal">#494b4c</color><color name="transparent">#00000000</color><dimen name="marginright_20">20dp</dimen><dimen name="paddingleft">30dp</dimen><dimen name="calculator_rela_padding">5dp</dimen><string name="app_name">置業指南針</string><color name="main_tab_indicator">#3385ff</color><string name="title_activity_main">置業指南針</string><dimen name="circle_height">65dp</dimen><dimen name="paddingleft_postbuild">30dp</dimen><dimen name="register_rela_padding">3dp</dimen><dimen name="hot_rela_padding">5dp</dimen><dimen name="circle_padding">3dp</dimen><color name="white">#ffffff</color><dimen name="circle_width">65dp</dimen><dimen name="circle_padding1">6dp</dimen></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values/dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">10dp</dimen><dimen name="more_rela_padding_5">5dp</dimen><dimen name="more_rela_marginleft">20dp</dimen><dimen name="more_rela_padding_3">5dp</dimen><dimen name="activity_horizontal_margin">10dp</dimen></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values/string_array.xml" qualifiers=""><string-array name="addtip_roomnum">
+    
+    <item>任何</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    
+</string-array><string-array name="addtip_housefloor">
+    
+    <item>任何</item>
+    <item>地下</item>
+    <item>低層</item>
+    <item>中層</item>
+    <item>高層</item>
+    <item>極高層</item>
+    
+</string-array><string-array name="postbuild_rentsale">
+    <item>可租可售</item>
+      <item>售</item>
+        <item>租</item>
+</string-array><string-array name="addtip_housesource">
+    <item>任何</item>
+    <item>業主自讓</item>
+</string-array><string-array name="postbuild_livingroom">
+        <item>1廳</item>
+        <item>2廳</item>
+        <item>3廳</item>
+        <item>4廳</item>
+        <item>5廳</item>
+        <item>5+</item>
+  </string-array><string-array name="postbuild_district">
+    <item>香港</item>
+    <item>九龍</item>
+    <item>新界</item>
+    <item>離島</item>
+</string-array><string-array name="addtip_price2">
+    
+    <item>任何</item>
+    <item>4999元</item>
+    <item>9,999元</item>
+    <item>19,999元</item>
+    <item>29,999元</item>
+    <item>49,999元</item>
+    <item>69,999元</item>
+    <item>89,999元</item>
+    <item>109,999元</item>
+    <item>129,999元</item>
+    <item>159,999元</item>
+    <item>199,999元</item>
+    <item>200,000元以上</item>
+    
+</string-array><string-array name="addtip_price1">
+    
+    <item>任何</item>
+    <item>0元</item>
+    <item>5,000元</item>
+    
+</string-array><string-array name="addtip_hongkong">
+    
+    <item>中西區</item>
+    <item>灣仔區</item>
+    <item>東區</item>
+    <item>南區</item>
+    
+</string-array><string-array name="postbuild_floor1">
+        <item>低層</item>
+          <item>中層</item>
+            <item>高層</item>
+              <item>超高</item>
+                <item>特高</item>
+  </string-array><string-array name="addtip_xinjie">
+    
+    <item>西區</item>
+    <item>北區</item>
+    <item>東區</item>
+    
+</string-array><string-array name="addtip_uselang">
+    
+    <item>繁體</item>
+    <item>簡體</item>
+    <item>ENGLISH</item>
+    
+</string-array><string-array name="addtip_housetype1">
+    
+    <item>任何</item>
+    <item>屋苑</item>
+    <item>單幢式大廈</item>
+    <item>村屋</item>
+    <item>唐樓</item>
+    <item>居屋</item>
+    <item>夾屋</item>
+    <item>公屋</item>
+    <item>洋房</item>
+    <item>獨立屋</item>
+    <item>其他</item>
+    
+</string-array><string-array name="addtip_housetype2">
+    
+    <item>任何</item>
+    <item>住宅</item>
+    <item>商廈</item>
+    <item>店舖</item>
+    <item>寫字樓</item>
+    <item>生意</item>
+    <item>車位</item>
+    <item>居屋</item>
+    <item>公屋</item>
+    <item>套房</item>
+    <item>村屋</item>
+     <item>分租</item>
+    <item>短租</item>
+    <item>農地</item>
+    <item>獨立屋</item>
+    <item>土地</item>
+    <item>國外</item>
+    
+</string-array><string-array name="addtip_jiulong">
+    
+    <item>九龍城區</item>
+    <item>觀塘區</item>
+    <item>深水涉區</item>
+    <item>黃大仙區</item>
+    <item>油尖旺區</item>
+    
+</string-array><string-array name="postbuild_diningroom">
+        <item>1廳</item>
+        <item>2廳</item>
+        <item>3廳</item>
+        <item>4廳</item>
+        <item>5廳</item>
+        <item>5+</item>
+  </string-array><string-array name="postbuild_kitchen">
+        <item>1廚</item>
+        <item>2廚</item>
+        <item>3廚</item>
+        <item>4廚</item>
+        <item>5廚</item>
+        <item>5+</item>
+  </string-array><string-array name="addtip_size">
+    
+    <item>任何</item>
+    <item>400</item>
+    <item>500</item>
+    <item>600</item>
+    <item>700</item>
+    <item>800</item>
+    <item>900</item>
+    <item>1000+</item>
+    
+</string-array><string-array name="postbuild_schoolnet">
+        <item>中西區 11</item>
+        <item>南區 18</item>
+        <item>東區 14</item>
+        <item>東區 16</item>
+        <item>灣仔區 12</item>
+        <item>九龍城區 34</item>
+        <item>九龍城區 35</item>
+        <item>九龍城區 41</item>
+        <item>深水埗區 38</item>
+        <item>深水埗區 40</item>
+        <item>黃大仙區 43</item>
+        <item>黃大仙區 45</item>
+        <item>油尖旺區 31</item>
+        <item>油尖旺區 32</item>
+        <item>觀塘區 48</item>
+        <item>觀塘區 46</item>
+        <item>西貢區 95</item>
+        <item>葵青區 64</item>
+        <item>葵青區 65</item>
+        <item>葵青區 66</item>
+        <item>荃灣區 62</item>
+        <item>屯門區 70</item>
+        <item>屯門區 71</item>
+        <item>北區 80</item>
+        <item>北區 81</item>
+        <item>北區 83</item>
+        <item>元朗區 72</item>
+        <item>元朗區 73</item>
+        <item>元朗區 74</item>
+        <item>沙田區 88</item>
+        <item>沙田區 89</item>
+        <item>沙田區 91</item>
+        <item>大埔區 84</item>
+        <item>離島區 96</item>
+        <item>離島區 97</item>
+        <item>離島區 98</item>
+        <item>離島區 99</item>
+  </string-array><string-array name="postbuild_bedroom">
+        <item>1間</item>
+          <item>2間</item>
+            <item>3間</item>
+              <item>4間</item>
+                <item>5間</item>
+                    <item>5+</item>
+  </string-array><string-array name="postbuild_floor">
+        <item>低層(地下﹣10樓)</item>
+          <item>中層(11樓﹣20樓)</item>
+            <item>高層(21樓﹣30樓)</item>
+              <item>超高(31樓﹣50樓)</item>
+                <item>特高(51樓以上)</item>
+  </string-array><string-array name="postbuild_propertype">
+    <item>屋苑</item>
+      <item>唐樓</item>
+        <item>居屋/夾屋/公屋</item>
+        <item>寫字樓</item>
+        <item>獨立屋</item>
+        <item>單幢式物業</item>
+        <item>服務式住宅</item>
+        <item>複式</item>
+        <item>住宅</item>
+        <item>工商</item>
+        <item>鋪位/車位</item>
+        <item>村屋</item>
+        <item>海外</item>
+</string-array><string-array name="addtip_area">
+    
+    <item>香港島</item>
+    <item>九龍半島</item>
+    <item>新界</item>
+    <item>離島</item>
+    
+</string-array><string-array name="postbuild_sitto">
+        <item>東</item>
+          <item>東北</item>
+            <item>東南</item>
+              <item>南</item>
+                <item>西南</item>
+                      <item>西</item>
+                        <item>西北</item>
+                            <item>北</item>
+  </string-array><string-array name="postbuild_flat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5+</item>
+  </string-array><string-array name="postbuild_toilet">
+        <item>1廁</item>
+          <item>2廁</item>
+            <item>3廁</item>
+              <item>4廁</item>
+                <item>5廁</item>
+                    <item>5+</item>
+  </string-array></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values/strings.xml" qualifiers=""><string name="title_activity_dead_line">DeadLineActivity</string><string name="title_activity_login__regiester">Login_Regiester</string><string name="title_activity_rent_detail">RentDetailActivity</string><string name="title_activity_login">LoginActivity</string><string name="title_activity_table">TableActivity</string><string name="title_activity_new_content">NewContentActivity</string><string name="title_activity_more">MoreActivity</string><string name="title_activity_tab">TabActivity</string><string name="title_activity_hot_detail4">HotDetail4Activity</string><string name="title_activity_hot_detail2">HotDetail2Activity</string><string name="title_activity_hot_detail1">HotDetail1Activity</string><string name="title_activity_police">PoliceActivity</string><string name="title_activity_nearby1">Nearby1Activity</string><string name="title_activity_listview">ListviewActivity</string><string name="title_activity_rent">RentActivity</string><string name="title_activity_my_tip">MyTipActivity</string><string name="title_activity_age">AgeActivity</string><string name="badfile_file">  凶宅檔案  </string><string name="badfile_new">  凶宅新聞  </string><string name="title_activity_fang_pan">FangPanActivity</string><string name="title_activity_sale">SaleActivity</string><string name="title_activity_hot_detail">HotDetailActivity</string><string name="title_activity_more_choose">MoreChooseActivity</string><string name="title_activity_news1">News1Activity</string><string name="title_activity_hot">HotActivity</string><string name="title_activity_hot_detail3n">HotDetail3nActivity</string><string name="badfile_void">  怎樣可免買入凶宅  </string><string name="title_activity_search_result">SearchResultActivity</string><string name="title_activity_recommend">RecommendActivity</string><string name="badfile_sort">  凶宅排行榜  </string><string name="title_activity_version">VersionActivity</string><string name="title_activity_gallery__pic_">Gallery_Pic_Activity</string><string name="title_activity_my_favor">MyFavorActivity</string><string name="title_activity_register">RegisterActivity</string><string name="title_activity_add_tip">AddTipActivity</string><string name="title_activity_xin_wen">XinWenActivity</string><string name="title_activity_activity__yi_shou1">Activity_YiShou1</string><string name="title_activity_slary">SlaryActivity</string><string name="title_activity_xiong_zhai">XiongZhaiActivity</string><string name="title_activity_contact">ContactActivity</string><string name="hello_world">Hello world!</string><string name="title_activity_owner">OwnerActivity</string><string name="action_settings">Settings</string><string name="title_activity_near_by">NearByActivity</string><string name="title_activity_galllery_view">GallleryViewActivity</string><string name="title_activity_floor_tip">FloorTipActivity</string><string name="badfile_oder">  凶宅訂閱  </string><string name="title_activity_search">SearchActivity</string><string name="title_activity_compass_net">CompassNetActivity</string><string name="title_activity_terms">TermsActivity</string><string name="title_activity_yi_shou">YiShouActivity</string><string name="title_activity_calculator">CalculatorActivity</string><string name="title_activity_ad">ADActivity</string></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values/styles.xml" qualifiers=""><style name="checkbox_postbuild">
+    <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="btn_summited">
+    <item name="android:layout_width">220dp</item>
+    <item name="android:layout_height">40dp</item>
+    <item name="android:layout_centerHorizontal">true</item>
+     <item name="android:background">@color/title_bar</item>
+      <item name="android:gravity">center</item>
+       <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/white</item>
+    </style><style name="myradiobutton">
+        <item name="android:visibility">invisible</item>
+    <item name="android:layout_width">13dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@drawable/radiobutton</item>
+    </style><style name="Popup_Animation_Alpha" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/layout_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/layout_alpha_out</item>
+    </style><style name="edittext">
+    <item name="android:paddingLeft">10dp</item>
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:ems">10</item>
+    </style><style name="textview_postbuild">
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_centerVertical">true</item>
+    <item name="android:layout_marginRight">20dp</item>
+    <item name="android:drawableRight">@drawable/icon_arrow</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    <item name="android:textColor">@color/search_text</item>
+    <item name="android:text">請選擇   </item>
+    
+    </style><style name="myradiobutton_galley">
+        <item name="android:visibility">invisible</item>
+    <item name="android:layout_width">13dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@drawable/radiobutton_gallery</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="textview_more">
+    </style></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="/Users/liujun/Documents/workspace/1/compass_12_19/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="/Users/liujun/Documents/workspace/1/compass_12_19/build/generated/res/rs/debug"/><source path="/Users/liujun/Documents/workspace/1/compass_12_19/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/Users/liujun/Documents/workspace/1/compass_12_19/build-types/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable><declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/></declare-styleable><declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable><declare-styleable name="CropImageView"><attr name="guidelines"><enum name="on" value="2"/><enum name="onTouch" value="1"/><enum name="off" value="0"/></attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable><declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable><declare-styleable name="ClearableEditText"><attr format="integer" name="max_length"/><attr format="string" name="hint"/></declare-styleable><declare-styleable name="SideBar"><attr format="dimension" name="itemHeight"/><attr format="dimension" name="itemTextSize"/></declare-styleable></configuration></mergedItems></merger>

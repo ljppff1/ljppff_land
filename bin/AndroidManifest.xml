@@ -119,6 +119,13 @@
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
+            android:name="com.compass.hk.search.SearchResult1Activity"
+            android:label="@string/title_activity_login__regiester"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        
+        <activity
             android:name="com.compass.hk.login_register.AgeActivity"
             android:label="@string/title_activity_age"
             android:screenOrientation="portrait" >

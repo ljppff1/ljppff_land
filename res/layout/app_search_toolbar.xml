@@ -60,6 +60,7 @@
                 android:background="@null"
                 android:textColor="@color/white"
                 android:layout_centerVertical="true"
+                android:drawableRight="@drawable/b15"
                 android:text="業主盤" />
 
             <LinearLayout

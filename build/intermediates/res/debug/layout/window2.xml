@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#b0000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:id="@+id/mLLRescueDialogpop"
+    android:background="@drawable/b1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mTVw1Id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/cancel"
+        android:padding="1dp"
+        android:text=" "
+        android:textSize="16sp" />
+
+          <TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="聯絡睇樓"
+          android:textSize="23sp"
+             android:textColor="@color/black"
+          />  
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        >
+             <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="姓        名:*"
+             android:id="@+id/mTVName"
+               android:layout_centerVertical="true"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+             />
+                  <EditText 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                 android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+             android:id="@+id/mEtName"
+             android:layout_toRightOf="@id/mTVName"
+             />
+         
+     </RelativeLayout>      
+                  <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="電        話:*"
+             android:id="@+id/mTVTell"
+               android:layout_centerVertical="true"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+             />
+                  <EditText 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:numeric="integer"
+                 android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+             android:id="@+id/mEtTell"
+             android:layout_toRightOf="@id/mTVTell"
+             />
+         
+     </RelativeLayout>      
+             <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="電        郵:*"
+             android:id="@+id/mTVEamil"
+               android:layout_centerVertical="true"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+             />
+                  <EditText 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                 android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+             android:id="@+id/mEtEamil"
+             android:layout_toRightOf="@id/mTVEamil"
+             />
+         
+     </RelativeLayout>
+                         <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="留        言:*"
+             android:id="@+id/mTVMsg"
+               android:layout_centerVertical="true"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+             />
+                  <EditText 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                 android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+             android:id="@+id/mEtMsg"
+             android:layout_toRightOf="@id/mTVMsg"
+             />
+         
+     </RelativeLayout>
+             
+             
+           
+    </LinearLayout>
+    </ScrollView>
+   
+    <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:id="@+id/mRLwindow2bottom"
+         android:paddingTop="20dp"
+                   android:layout_marginLeft="25dp"
+          android:layout_marginRight="25dp"
+          android:layout_marginBottom="30dp"
+         
+         >
+                               <Button
+                android:id="@+id/mBTgocancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                                            android:paddingRight="18dp"
+               android:paddingLeft="18dp"
+               android:paddingTop="2dp"
+               android:paddingBottom="2dp"
+                
+                android:background="@drawable/button2"
+                android:textColor="@color/black"
+                android:text="取消"
+                android:textSize="16sp" />
+                               <Button
+                android:id="@+id/mBTW1next"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                 android:paddingRight="18dp"
+               android:paddingLeft="18dp"
+               android:paddingTop="2dp"
+               android:paddingBottom="2dp"
+                
+                android:background="@drawable/button2"
+  android:textColor="@color/black"                android:text="確定"
+                android:textSize="16sp" />
+               
+                               
+     </RelativeLayout>
+    
+    
+</LinearLayout>
+</RelativeLayout><!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/window2.xml -->

@@ -1,0 +1,6 @@
+/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/classes/debug
+/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/photoview-04323053433065435d2b03fa3bd92c369a8256b5.jar
+/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/gradle-wrapper-e3b7ac782a4f67af5b47348041e82f25d380f64e.jar
+/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/xUtils-2.6.14-c8b80c2794b938cfded368812fc96e3dc6d38543.jar
+/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.4-with-sources-7fde7a8c3d1ab6f225597d2aaf966e6faa943dd3.jar
+/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/android-support-v4-955aea0ab159dc19206db6dc06f7e2b6b3ecd3a7.jar

@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoliceActivity" >
+<RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/frame_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </FrameLayout>
+
+    </RelativeLayout>
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativeLayout1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="私隱聲明"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="@dimen/more_rela_padding_3">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 我們致力保障你的線上私隱，並採取多項措施，以保護你所提供的資料。為協助我們保障你的個人私隱，請將你使用置業指南針(香港)hk-compass.com時設定的登記名稱和密碼保密。" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="置業指南針(香港)hk-compass.com收集若干個人資料，目的是提供個人化的服務、內容及廣告宣傳。部分個人資料是在你登記使用某些置業指南針(香港)hk-compass.com的服務或產品時收集得來。我們也可能在其他情況要求你提供個人資料，例如當你參加比賽或其他推廣活動時。對你有更深認識，令我們能夠提供更為切合你個人需要的服務。我們或會把收集得來的資料與贊助商或其他有意為你提供服務的機構一起使用。你可以隨時以電郵通知我們不要把你的個人資料提供給其他機構使用。此外，你也有權隨時複查我們所收集的個人資料，並要求更正任何有欠準確的資料"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="請細閱我們的私隱權政策細則，以了解我們收集何種資料，以及我們如何使用有資料。" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_greyline" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="●  登記資料的使用" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基本登記要求你提供登記名稱和密碼、你的法定姓名、地址、聯絡電話、電郵地址。 置業指南針(香港)hk-compass.com或會要求參與獎賞計劃或網站間或提供的推廣計劃的使用者提供額外的個人資料，以便推行有關計劃，或向得獎者發出通知。 你購買任何在置業指南針(香港)hk-compass.com網站上展示的產品及服務時向其他機構提供的資料，受到該機構的私隱權政策所保障。在置業指南針(香港)hk-compass.com網站上出現的公司若為方便提供貨品或服務而要求使用者提供個人資料者，置業指南針(香港)hk-compass.com均要求該等公司清楚展明其私隱權政策，並須說明有關資料的用途。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="●  置業指南針(香港)hk-compass.com 的個人資料私隱保障" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你所提供的資料儲存在安全的伺服器上。你可透過你指定的電郵地址接收我們發出的通知，知會你置業指南針(香港)hk-compass.com新推出的功能或優惠。你在選定個人設定時，可選擇不接收此等通知。請記得為每個用作登記用途的電郵地址選定個人設定。然而，置業指南針(香港)hk-compass.com保留權利可在法例規定或容許時披露辨認個人身份的資料。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="●  收集個人資料聲明" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任何人仕對可識別個人身份之資料，如一個人之姓名、聯絡號碼、地址、性別、年齡、職業、婚姻狀況、相片、身份証號碼、信用資料等(“個人資料”)之私隱權利均獲得新達資源有限公司(“本公司”)之確認及尊重。本公司承諾遵守個人資料(私隱)條例並致力保障網上個人資料之私隱。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本公司可能要求瀏覽本網站之人仕(“客戶”)在使用本網站時，或通過本網站詢問、認購、申請或使用本公司所提供及管理之任何資料、服務、產品、計劃或會員登記時，提供個人資料。我們並會使用網上任何其他各種形式或技術運作收集客戶個人資料。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本公司可能要求瀏覽本網站之人仕(“客戶”)在使用本網站時，或通過本網站詢問、認購、申請或使用本公司所提供及管理之任何資料、服務、產品、計劃或會員登記時，提供個人資料。我們並會使用網上任何其他各種形式或技術運作收集客戶個人資料。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所有本公司已收集及將收集之個人資料，均可作以下用途：" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       1.以便利本公司向客戶提供包括但不限於地產代理、網上購物、網上商貿及其他相關服務／產品；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       2.不時送上或電郵本公司提供／供應的多元化服務／產品直銷及宣傳資料予客戶。如客戶不希望收到這類郵件，客戶只需以書面通知本公司之個人資料主任；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       3.核實前來本公司領取獎項或禮品之得獎者或客戶身份；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       4.收集本公司網頁之登記客戶整體人數數據；" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       5.為遵守香港特別行政區政府或其他司法管轄區的法例及監管要求或法定機關之命令。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本公司可把所收集的客戶個人資料提供予第三者，包括但不限於本公司的控股公司、子公司或聯營公司、或承包商及代理商、廣告商、及其他對本公司擁有保密責任之商業伙伴。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 儘管本公司將盡一齊所能確保本公司收集所得的客戶個人資料被妥善地保存在儲存系統，並祇有獲授權的僱員方可查閱有關資料，但鑒於互聯網之公開及全球性質，本公司可能無法保護及保密客戶個人資料不受第三者的蓄意干擾。凡經由本公司網頁瀏覽他人運作的網站，客戶的個人資料均不屬本公司的私隱政策保障範圍內。" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:padding="@dimen/more_rela_padding_3" >
+
+            <TextView
+               
+                style="@style/textview_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 本公司保留對此項聲明於任何時間作出修改之權利。如要求查閱及更正客戶個人資料，或對本公司的私隱政策及執行有任何查詢，可致函── P.O.Box No.44453 Hong Kong置業指南針 個人資料 收。" />
+        </RelativeLayout>
+        
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_police.xml -->

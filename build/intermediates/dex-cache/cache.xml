@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/liujun/Documents/workspace/1/compass_12_19/libs/gradle-wrapper.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="087d8803e9a988004e38f67a3d0f78588f594474">
+        <dex dex="/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/gradle-wrapper-e3b7ac782a4f67af5b47348041e82f25d380f64e.jar" />
+    </item>
+    <item
+        jar="/Users/liujun/Documents/workspace/1/compass_12_19/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/xUtils-2.6.14-c8b80c2794b938cfded368812fc96e3dc6d38543.jar" />
+    </item>
+    <item
+        jar="/Users/liujun/Documents/workspace/1/compass_12_19/libs/universal-image-loader-1.8.4-with-sources.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="eba3ec78458fcb9bdd8bb7eff1a2f6f26f8fa00a">
+        <dex dex="/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.4-with-sources-7fde7a8c3d1ab6f225597d2aaf966e6faa943dd3.jar" />
+    </item>
+    <item
+        jar="/Users/liujun/Documents/workspace/1/compass_12_19/libs/photoview.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d8d5c89d986642c097bf3cbc61c3ccb120afd9b4">
+        <dex dex="/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/photoview-04323053433065435d2b03fa3bd92c369a8256b5.jar" />
+    </item>
+    <item
+        jar="/Users/liujun/Documents/workspace/1/compass_12_19/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="/Users/liujun/Documents/workspace/1/compass_12_19/build/intermediates/pre-dexed/debug/android-support-v4-955aea0ab159dc19206db6dc06f7e2b6b3ecd3a7.jar" />
+    </item>
+
+</items>

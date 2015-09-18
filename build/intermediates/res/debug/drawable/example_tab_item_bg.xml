@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+ <!--   <item android:drawable="@color/first2" android:state_enabled="true" android:state_selected="false"/>
+    <item android:drawable="@color/first1" android:state_enabled="true" android:state_selected="true"/>
+ --> 
+     <item android:state_focused="true" android:drawable="@color/first2"/>
+    <item android:state_checked="true" android:drawable="@color/first2"/>
+    <item android:state_pressed="true" android:drawable="@color/first2"/>
+    <item android:drawable="@color/first1"/>
+ 
+</selector><!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/drawable/example_tab_item_bg.xml -->

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" >
+
+<RelativeLayout
+    android:id="@+id/rela_aa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="#5E000000"
+    android:layout_below="@+id/view_aa" >
+    
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RadioButton
+            android:id="@+id/radio_nolimit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:checked="true"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="不限"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_hongkong"
+          android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="香港" />
+
+        <RadioButton
+            android:id="@+id/radio_jiulong"
+        android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="九龍" />
+
+        <RadioButton
+            android:id="@+id/radio_xinjie"
+          android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="新界" />
+
+        <RadioButton
+            android:id="@+id/radio_lidao"
+           android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_ppwindow_zone"
+            android:textColor="@drawable/selector_color_ppwindow" 
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="離島" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_zone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/radioGroup1"
+        android:background="@color/grey"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="不限"
+        android:textColor="@color/title_bar" />
+
+    <ListView
+        android:id="@+id/listView_ppwindow"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignBottom="@+id/radioGroup1"
+        android:layout_alignLeft="@+id/textView_zone"
+        android:layout_below="@+id/textView_zone"
+        android:background="@color/grey" >
+
+    </ListView>
+
+    <View
+        android:id="@+id/view_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroup1" />
+</RelativeLayout>
+
+<View
+    android:id="@+id/view_aa"
+    android:layout_width="wrap_content"
+    android:layout_height="101dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    />
+
+</RelativeLayout><!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/ppwindow_zone.xml -->

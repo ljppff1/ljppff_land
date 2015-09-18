@@ -1,0 +1,1501 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FangPanActivity" >
+
+    <FrameLayout
+        android:id="@+id/frame_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </FrameLayout>
+<ScrollView 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_below="@+id/frame_title"
+    
+    android:id="@+id/scrollview_fangpan">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:id="@+id/rala_postbuild_1"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#a3d0d0d0"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="物業基本資料"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="租/售類型:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_rentsale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:drawableRight="@drawable/icon_arrow"
+                        android:text="請選擇   "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/search_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="物業種類:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_propertystyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:drawableRight="@drawable/icon_arrow"
+                        android:text="請選擇   "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/search_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="區域:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_district"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:drawableRight="@drawable/icon_arrow"
+                        android:text="請選擇   "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/search_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="地區:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_zone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:drawableRight="@drawable/icon_arrow"
+                        android:text="請選擇   "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/search_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="物業地址:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_streetname"
+                        style="@style/edittext"
+                        >
+
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp" >
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="大廈/屋苑:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_buildname"
+                        style="@style/edittext" 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="座數:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_seatno"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10"
+                        android:inputType="number" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="期數(如有):"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_periods"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10"
+                        android:inputType="number" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="樓層:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_floor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:drawableRight="@drawable/icon_arrow"
+                        android:text="請選擇   "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/search_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="發展商："
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_developer"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="單位(間)："
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_units"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10"
+                        android:inputType="number" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="建築面積(平方呎)："
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_areagross"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10"
+                        android:inputType="number" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="實用面積(平方呎)："
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_areanet"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10"
+                        android:inputType="number" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="入伙年份："
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_years"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ems="10"
+                        android:inputType="number" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rala_postbuild_2"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#a3d0d0d0"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="租售資料"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="客廳:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_livingroom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="飯廳:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_diningroom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="房間:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_bedroom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+                   <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="套房:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_flat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="廚房:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_kitchen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="浴室:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_toilet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="坐向:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_sitto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="校網:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv_postbuild_schoolnet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="請選擇   "
+                        style="@style/textview_postbuild"
+                        />
+                </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                
+            </LinearLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rala_postbuild_3"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="30dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#a3d0d0d0"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="租售資料"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="售價(萬):"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_saleprice"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:inputType="number"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="交吉情況:"
+                        android:layout_centerVertical="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_postbuild_isVacant1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="即吉 或 交吉" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="日期(年/月/日):"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_Vacantdate"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_postbuild_isVacant2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="連租約,每月租金HK$: " />
+                         <EditText
+                        android:id="@+id/et_postbuilder_ContractPrice"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:inputType="number"
+                        android:layout_toRightOf="@+id/checkBox_postbuild_isVacant2"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="約滿日期(年/月/日):"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_ContractExpiry"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="出租(HK$):"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_RentPrice"
+                        style="@style/edittext"
+                        android:inputType="number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="租金是否包括:"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+<LinearLayout  
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <RelativeLayout
+        android:layout_weight="1"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox 
+            android:id="@+id/checkBox_postbuild_isInclude1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="差餉"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox 
+            android:id="@+id/checkBox_postbuild_isInclude2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地租"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox 
+            android:id="@+id/checkBox_postbuild_isInclude3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="管理費"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox 
+            android:id="@+id/checkBox_postbuild_isInclude4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="車位 "
+            />
+    </RelativeLayout>
+</LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="差餉HK$(每季):"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_Taxdeduction"
+                        style="@style/edittext"
+                          android:inputType="number" 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+                 <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="管理費HK$(每月):"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_Maintenance"
+                        style="@style/edittext"
+                          android:inputType="number" 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                         android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shape_greyline" />
+                </RelativeLayout>
+                
+            </LinearLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rala_postbuild_4"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+    <RelativeLayout 
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+          <RelativeLayout
+               android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#a3d0d0d0"
+              android:padding="5dp"
+              >
+              <TextView
+                   android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="景觀"
+                  android:layout_alignParentLeft="true"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+          </RelativeLayout>   
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_1"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="海 景"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_2"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="園 景"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_3"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="山景"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_4"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="樓景"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_5"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="河景"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_6"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="開揚景"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_7"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="馬場景"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_8"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="城市景"
+              />
+         </LinearLayout>           
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+          <RelativeLayout
+               android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#a3d0d0d0"
+              android:padding="5dp"
+              >
+              <TextView
+                   android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="設施"
+                  android:layout_alignParentLeft="true"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+          </RelativeLayout>   
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_9"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="露台"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_10"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="天台"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_11"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="平台"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_12"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="會所"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_13"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="工人房"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_14"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="連車位"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_15"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="私人花園"
+              />
+          
+         </LinearLayout>           
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+          <RelativeLayout
+               android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#a3d0d0d0"
+              android:padding="5dp"
+              >
+              <TextView
+                   android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="特色"
+                  android:layout_alignParentLeft="true"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+          </RelativeLayout>   
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_16"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="新裝修"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_17"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="有裝修"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_18"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="部份裝修"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_19"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="新廚房"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_20"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="新廁所"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_21"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="連部份電器"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_22"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="連部份傢俬"
+              />
+          <CheckBox 
+              android:id="@+id/checkbox_postbuild_23"
+              style="@style/checkbox_postbuild"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="連全部電器"
+              />
+         </LinearLayout>           
+        
+    </RelativeLayout>
+   
+                
+            </LinearLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#a3d0d0d0"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="單位相片"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </RelativeLayout>
+<RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="視頻檔案:必須是swf格式，如:http://player.youku.com/player.php/sid/XNDUzODgzMjAw/v.swf)"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </RelativeLayout>
+       
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" 
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_video"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="相片檔案（默認第1張將作為封面)，建議規格640*480"
+                        android:layout_centerVertical="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </RelativeLayout>
+                 
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_postbuild_PhotoMark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text=" 是否添加水印?" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+                    
+                    <com.compass.hk.widgets.ChildListView 
+                        android:id="@+id/mylistview_postbuild"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        ></com.compass.hk.widgets.ChildListView>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:text="增加图片:"
+                        android:onClick="btn_addpic"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#a3d0d0d0"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="單位描述"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fangpan_rela_padding" 
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="0px"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" >
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_postbuilder_Remark"
+                        style="@style/edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:ems="10" >
+
+                    </EditText>
+
+                </RelativeLayout>
+                    <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/paddingleft_postbuild" >
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:layout_marginBottom="50dp"
+                   android:layout_marginTop="30dp"
+                    android:padding="@dimen/fangpan_rela_padding" 
+                    
+                    >
+<Button 
+    android:text="送出放盤"
+    android:gravity="center"
+    android:onClick="btn_postbuild"
+    android:textColor="@color/white"
+    android:layout_centerHorizontal="true"
+    android:background="@color/title_bar"
+    android:layout_width="120dp"
+    android:layout_height="40dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+        
+
+        
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_fang_pan.xml -->

@@ -1,0 +1,851 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1rentdetail"
+    android:background="@color/white"
+    tools:context=".RentDetailActivity" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/title_bar"
+            android:padding="@dimen/title_padding" >
+
+            <TextView
+                android:id="@+id/tv_rentdetail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="---"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <ImageButton
+                android:id="@+id/imageView_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_bar_logo"
+                android:onClick="btn_home" />
+
+            <ImageButton
+                android:id="@+id/imageButton_rent_addfavor"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/icon_favor_normal"
+                android:onClick="btn_addfavor" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+<com.compass.hk.widgets.MyScrollView
+    android:id="@+id/rentdetail_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/rela_rentdetail_bottom"
+    android:layout_below="@+id/relativeLayout1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            
+            >
+            <android.support.v4.view.ViewPager
+            android:id="@+id/pager_rentpic"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/grey"
+            >
+        </android.support.v4.view.ViewPager>
+
+            <RadioGroup
+                android:id="@+id/radioGroup_hot2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="260dp"   
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_1"
+                    style="@style/myradiobutton"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_2"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_3"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_4"
+                    style="@style/myradiobutton" />
+   
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_5"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_6"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_7"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_8"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_9"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_10"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_11"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_12"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_13"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_14"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_15"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_16"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_17"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_18"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_19"
+                    style="@style/myradiobutton" />
+
+                <RadioButton
+                    android:id="@+id/rent_radiobtn_20"
+                    style="@style/myradiobutton" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_rent_detail_referpic"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/radioGroup_hot2"
+                android:layout_alignLeft="@+id/radioGroup_hot2"
+                android:layout_marginBottom="24dp"
+                android:textColor="#ff0000"
+                android:text="點擊查看大圖" />
+
+        </RelativeLayout>
+        
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView
+        android:id="@+id/tv_rent_picname"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="---" />
+</RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/register_rela_padding" >
+
+            <Button
+                android:id="@+id/btn_register_summit21"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:background="@color/white"
+                android:text=""
+                
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+        
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#f8f8f8"
+            >
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:background="@color/grey1"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                     >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                            
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="0dp"
+                                android:layout_weight="1.7"
+                                android:layout_height="wrap_content"
+                                android:text="售價"
+                                />
+                            
+                            <TextView
+                                android:id="@+id/tv_rent1_weight_saleprice"
+                                android:layout_width="0dp"
+                                android:layout_weight="2.3"
+                                android:layout_height="wrap_content"
+                                android:text="---"
+                                
+                                android:layout_toRightOf="@id/TextView04"
+                                />
+                                 <ImageButton
+                        android:id="@+id/imageButton2"
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:onClick="btn_calculator"
+                        android:background="@drawable/icon_calculator" />
+                                                             <View 
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:layout_height="1dp"
+                                />
+                                 
+                            <TextView
+                                android:id="@+id/TextView041"
+                                android:layout_width="0dp"
+                                android:layout_weight="1.7"
+                                android:layout_height="wrap_content"
+                                android:text="租價"
+                                />
+                            
+                            <TextView
+                                android:id="@+id/tv_rent1_weight_saleprice1"
+                                android:layout_width="0dp"
+                                android:layout_weight="2.3"
+                                android:layout_height="wrap_content"
+                                android:text="---"
+                                />
+                        
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+                 
+                         <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+                            <TextView
+                                android:id="@+id/TextView0411"
+                                android:layout_width="0dp"
+                                android:layout_weight="1.7"
+                                android:layout_height="wrap_content"
+                                android:text="建築面積"
+                                />
+                        
+                            <TextView
+                                android:id="@+id/tv_rent1_weight_areanet1"
+                                android:layout_width="0dp"
+                                android:layout_weight="2.3"
+                                android:layout_height="wrap_content"
+                                android:text="---"
+                                />
+                                                                                         <View 
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="1dp"
+                                />
+                            
+                      <TextView
+                                android:id="@+id/TextView0412"
+                                android:layout_width="0dp"
+                                android:layout_weight="1.7"
+                                android:layout_height="wrap_content"
+                                android:text="實用面積"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_rent1_weight_areanet2"
+                                android:layout_width="0dp"
+                                android:layout_weight="2.3"
+                                android:layout_height="wrap_content"
+                                android:text="---" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+                
+                     
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                     >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="fill_parent"
+                        android:paddingTop="2dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                       
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="0dp"
+                                android:layout_weight="1.7"
+                                android:layout_height="wrap_content"
+                                android:text="間隔"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_roomtoilat"
+                                android:layout_width="0dp"
+                                android:layout_weight="2.3"
+                                android:layout_height="wrap_content"
+                                android:text="---"
+                                />
+                                                                                         <View 
+                                android:layout_width="0dp"
+                                android:layout_weight="5"
+                                android:layout_height="1dp"
+                                />
+                            
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+     
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_rent1_weight_areagross"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="---" />
+
+                    <TextView
+                        android:id="@+id/tv_rent1_weight_areanet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/tv_rent1_weight_areagross"
+                        android:text="---" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_rent1_weight_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="---" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_greyline"
+            android:paddingLeft="@dimen/hot_rela_padding"
+            android:paddingRight="@dimen/hot_rela_padding" >
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/register_rela_padding" >
+
+            <Button
+                android:id="@+id/btn_register_summit2"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="物業資料"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/frame_rent_document"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </FrameLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/register_rela_padding" >
+            <Button
+                android:id="@+id/btn_register_summit1"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/title_bar"
+                android:gravity="center"
+                android:text="平面圖"
+                android:onClick="btn_plane"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/frame_rent_plane"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </FrameLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/register_rela_padding" >
+
+            <Button
+                android:id="@+id/btn_register_summit"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/title_bar"
+                android:gravity="center"
+                android:text="街景地圖"
+                android:onClick="btn_map"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/frame_rent_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </FrameLayout>
+
+        </RelativeLayout>
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            />
+
+    </LinearLayout>
+    </com.compass.hk.widgets.MyScrollView>
+     
+
+
+
+
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/rela_rentdetail_bottom"
+          android:layout_alignParentBottom="true"
+         android:orientation="vertical"
+         >
+           <RelativeLayout
+            android:id="@+id/rela_rentdetail_bottom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@color/title_bar"
+            android:padding="5dp"
+            >
+            <ImageView
+                android:id="@+id/iv_frag_personphoto"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white" />
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:layout_centerVertical="true" >
+
+                <ImageButton
+                    android:id="@+id/ib_agence_call"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    
+                    android:background="@drawable/ic_call" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativeLayout21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                    android:layout_toLeftOf="@+id/relativeLayout2"
+                android:layout_centerVertical="true" >
+
+                <ImageButton
+                    android:id="@+id/ib_agence_email"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                     android:onClick="btn_sendEmail" 
+                    android:background="@drawable/ic_email1" />
+
+            </RelativeLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/relativeLayout21"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/iv_frag_personphoto"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="公司名      ："
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_frag_companyname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/TextView14"
+                        android:text="_ _"
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="聯絡人      ："
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_frag_personname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/TextView10"
+                        android:text="_ _"
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="個人牌照  ："
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_frag_lience"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/TextView07"
+                        android:text="_ _"
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="電話（1）："
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_frag_telephone1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/TextView03"
+                        android:text="_ _"
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:text="電話（2）：" />
+                    <TextView
+                        android:id="@+id/tv_frag_telephone2"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/textView2"
+                        android:textSize="10sp"
+                        android:text="_ _" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+                   <RelativeLayout
+            android:id="@+id/rela_rentdetail_bottom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/title_bar"
+              android:visibility="gone"
+            android:padding="5dp"
+            >
+                        <RelativeLayout
+                android:id="@+id/relativeLayout2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:layout_centerVertical="true" >
+
+                <ImageButton
+                    android:id="@+id/ib_agence_call2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_call" />
+                
+            </RelativeLayout>
+                                    <RelativeLayout
+                android:id="@+id/relativeLayout2a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/relativeLayout2a"
+                android:padding="10dp"
+                android:layout_centerVertical="true" >
+
+                <ImageButton
+                    android:id="@+id/ib_agence_email2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                      android:onClick="btn_sendEmail" 
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_email1" />
+                
+            </RelativeLayout>
+                        
+            <LinearLayout 
+                  android:layout_centerVertical="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toLeftOf="@id/relativeLayout2a1"
+                >
+                  <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="聯絡人      ："
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_frag_personname2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/TextView20"
+                        android:text="_ _"
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+            
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView032"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="電話（1）："
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_frag_telephone1a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/TextView032"
+                        android:text="_ _"
+                        android:textSize="10sp"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:text="電話（2）：" />
+                    <TextView
+                        android:id="@+id/tv_frag_telephone2b"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/textView22"
+                        android:textSize="10sp"
+                        android:text="_ _" />
+                </RelativeLayout>
+            </LinearLayout>
+           </RelativeLayout>
+               <ProgressBar
+        android:id="@+id/progressBar_tab_rent"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+                   
+     </LinearLayout>
+
+  
+</RelativeLayout>
+<!-- From: file:/Users/liujun/Documents/workspace/1/compass_12_19/res/layout/activity_rent_detail.xml -->
